@@ -1,0 +1,59 @@
+
+\begin{algorithm}
+\SetNoline
+\caption{\texttt{\bf ScoreSingleProtein} - {score any given protein for enzymatic function  $\mathcal{F}$}}
+\KwIn{$n \Leftarrow$ number  of active residues in the motif for $\mathcal{F}$}
+\KwIn{$D \Leftarrow \{D_{ij}: \forall {i,j} \in n, i \ne j\}$  Distance values in reference protein }
+\KwIn{$EP \Leftarrow \{EP_{j}: \forall {j} \in n, \}$  APBS calculated potentials }
+%\KwIn{$C \Leftarrow \{C_{ref_{j}}: \forall {j} \in n, \}$  Cavity presence predicate in reference protein  }
+\KwIn{$WD \Leftarrow \{W_{dist_{ij}}: \forall {i,j} \in n, i \ne j\}$  Weights assigned to distances for pairs of residues }
+\KwIn{$WE \Leftarrow \{W_{pot_{ij}}: \forall {i,j} \in n, i \ne j\}$  Weights assigned to potential difference for pairs of residues }
+%\KwIn{$WC \Leftarrow \{W_{cav_{i}}: \forall {i} \in n\}$  Weights assigned to cavity presence for residue }
+\KwIn{$PotentialRange \Leftarrow \{Range_{pot_{ij}}: \forall {i,j} \in n, i \ne j\}$   potential range for pairs of residues }
+\KwIn{$cutoff \Leftarrow$ Ignore matches which lie more than $cutoff$ distance away from each other}
+\KwIn{$PDB \Leftarrow$ PDB coordinates of protein being scored}
+\KwIn{$G = \{g_{1}\cdots g_{n}\} \Leftarrow$ $n$ Tuple of groups of residue such that if $O = \{o_{1}\cdots o_{n}\}$  is a result then $\forall i \in n: TYPE(o_{i}) \in g_{i}$ }. This defines the stereochemically equivalent groups.
+
+\KwOut{$M = \{O_{1}\cdots O_{K}\}  \Leftarrow$ Ordered set of $K$ scores $O$ where $O$ is defined as 
+	$O = \{o_{1}\cdots o_{n},S\} \Leftarrow$ $n$ Tuple of residue numbers such that $\forall i \in n: TYPE(o_{i}) \in g_{i}$ and $S$ is the score such that $O_{i}(S) \leq O_{j}(S)$ if $i \textgreater j$ }
+
+\Begin{
+        $SCORE \longleftarrow 0$\;
+  		$ReadCoordinatesFromPDB(PDB)$ \\
+
+          $PS = $\{ Set of all possible $n$ residues such that $\forall i \in n: TYPE(o_{i}) \in g_{i}  $
+		  	and $\forall {i,j} \in n, i \ne j: Dist(o_{i},o_{j}) < cutoff \}$
+
+      \ForEach{$PS_{i}$ in $PS$}{
+         \For{$j\leftarrow 1$ \KwTo $n-1$}{
+              \For{$k\leftarrow j+1$ \KwTo $n$}{
+		 	       $R_{j} = PS_{i}[j]$ \\ 
+		 	       $R_{k} = PS_{i}[k]$  \\  
+				   /* 3D conformity */\\
+		 	       $dist_{jk} = Dist(R_{j},R_{j})$ \\
+				   $\delta_{{dist}_{jk}} = WD_{dist_{jk}} * ( dist_{jk} - D_{jk})  $ \\
+                   $SCORE \longleftarrow SCORE + \delta_{{dist}_{jk}}$\; 
+                   /* Normalize the deviations if the scores with motifs having different number of residues are compared */
+                   $SCORE \longleftarrow SCORE / n$\;
+				   %/* Cavity */ \\
+		 	       %$C_{query_{j}} = CavityQuery(R_{j})$; \\
+		 	       %$C_{query_{k}} = CavityQuery(R_{k})$; \\
+				   %\If{($C_{query_{j}} \le C_{ref_{j}}$ -1 $\wedge$ ($C_{query_{j}}$ is not processed ))}{$SCORE \longleftarrow SCORE *WC_{cav_{j}} $;}
+				   %\If{($C_{query_{k}} \le C_{ref_{k}}$ -1 $\wedge$ ($C_{query_{k}}$ is not processed )))}{$SCORE \longleftarrow SCORE *WC_{cav_{k}} $;}
+				   /* potential */\\
+				   %\If\Else
+		 	       $pot_{jk} = PotentialDifference(EP_{j},EP_{k})$ \\
+				   $\delta_{{pot}_{jk}}$ = $pot_{jk}$ lies in $Range_{pot_{jk}} ?  0 :WE_{pot_{jk}} * ( pot_{jk}  - Range_{pot_{jk}}) ;$ \\
+                   $SCORE \longleftarrow SCORE + \delta_{{pot}_{jk}}$\;
+
+		       }
+		
+	 	
+          }
+	  }
+	
+	}
+\label{algo:score}
+\end{algorithm}
+
+

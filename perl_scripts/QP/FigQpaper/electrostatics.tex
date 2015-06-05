@@ -1,0 +1,59 @@
+
+\clearpage
+\pagebreak
+\clearpage
+\subsubsection{\bf Electrostatics in proteins:}
+Debye H$\ddot{u}$ckel formulated a simple model for calculating the chemical potentials due to an ionic species
+and other ions. In this model one can consider the solution having charged ions and water molecules, and arbitrarily
+choose a reference atom and give it a charge. The remaining ions are considered smeared into a continuous
+distribution of charge, leading to a net charge density per unit volume. Electroneutrality requires
+that the total charge of the system must be equal and opposite to the charge of the central atom. Water
+is considered as a continuous dielectric medium. This reduces the problem of computing the 
+distribution of ions inside an electrolytic solution to the simpler problem of 
+determining how the charge density varies with distance from the central ion.
+
+
+The relation between the charge density ($\rho_{r}$) and the electrostatic potential ($\Phi_{r}$) at a point $r$  is given in Equation~\ref{eqn:1} by Poisson's equation ($\epsilon$ is the dielectric constant which is a discontinuous function in this case). The excess charge density can also be written in terms of the number of ionic charges of each species ($n_{i}$) and the charge ($q_{i}$) as in Equation~\ref{eqn:2}.
+\begin{align}
+\label{eqn:1}      \nabla^{2}\Phi_{r} = - \frac{-4\pi\rho_{r}}{\epsilon}  \\
+\label{eqn:2}      \rho_{r} = \sum n_{i}q_{i} 
+\end{align}
+
+
+
+The Boltzmann distribution of classical statistical physics is shown in Equation~\ref{eqn:3}, where $T$ is the absolute temperature, $k$ is Boltzmann constant and $n_{i}^{o}$ is the bulk concentration of the $i_{th}$ species. 
+\begin{align}
+\label{eqn:3}  n_{i} = n_{i}^{o}e^{-U/kT} 
+\end{align}
+
+If the forces are attractive, then the potential energy $U$ is negative and  $n_{i} > n_{i}^{o}$. This implies that the concentration are more than that of the bulk concentration which is logical since the force is attractive.
+For dilute solutions one can make the fundamental assumption that the short range forces are negligible and only coulombic forces are considered, and hence
+\begin{align}
+\label{eqn:4}  U = q_{r}\Phi_{r}
+\end{align}
+
+Using Equation~\ref{eqn:3} and ~\ref{eqn:4} we can write the charge density in Equation~\ref{eqn:2} as
+\begin{align}
+\label{eqn:5}      \rho_{r} = \sum n_{i}q_{i} = \sum n_{i}^{o}q_{i}e^{-q_{r}\Phi_{r}/kT} 
+\end{align}
+
+
+Another simplifying assumption that the average electrostatic potential is much smaller than the thermal energy $kT$,
+allows the Taylor series expansion of the exponential term. Ignoring all terms except the first two, and ensuring 
+electrostatic neutrality gives us
+\begin{align}
+\nonumber      \rho_{r}  & =  \sum n_{i}q_{i} -  \sum \frac{n_{i}^{o}q_{i}^{2}\Phi_{r}}{kT} \\
+\label{eqn:6}      & =   -  \sum \frac{n_{i}^{o}q_{i}^{2}\Phi_{r}}{kT}
+\end{align}
+
+
+
+Thus one has derived two expressions for the charge density in Equations~\ref{eqn:1} and ~\ref{eqn:6}. 
+Equating these one obtains the linearized Poisson-Boltzmann equation. In this derivation, it has been assumed that there are no mobile ions.
+
+\begin{align}
+\label{eqn:7}      \nabla^{2}\Phi_{r} = \left( \frac{-4\pi}{ \epsilon kT  }  \sum n_{i}^{o}q_{i}^{2} \right)\Phi_{r}  
+\end{align}
+
+Assigning charge and radius parameters in a protein~\citep{PDB2PQR} using a force field model, current tools~\citep{DELPHI,APBS} solve for the electrostatic potential using finite difference methods~\citep{FINITEDIFF}. 
+

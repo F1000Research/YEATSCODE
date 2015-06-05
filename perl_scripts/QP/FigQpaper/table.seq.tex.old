@@ -1,0 +1,22 @@
+\begin{center} 
+\begin{table*} 
+\caption { Sequence identities/similarities between APs and MBLs. CIAP and GOB1 are not PDB identifiers, since there are no solved structures for these enzymes.  }  
+\begin{tabular}{ l l l l l l l l l l l l l l l l  l l  l l l l l l } 
+\hline 
+ PDB & 1ALK & 1K7H & CIAP & 3FCZ & 1DD6 & 3F9O & 1SML & 1JT1 & 3LVZ & 2WYL & GOB1 \\ 
+\hline 
+ 1ALK & -/- & 28/39 & 27/40 & 13/22 & 11/20 & 11/19 & 15/22 & 14/22 & 20/31 & 13/20 & 16/22 \\ 
+ 1K7H & NA & -/- & 37/51 & 13/21 & 12/22 & 10/18 & 16/25 & 13/22 & 17/26 & 11/17 & 11/20 \\ 
+ CIAP & NA & NA & -/- & 12/18 & 11/16 & 10/16 & 15/22 & 12/23 & 16/25 & 13/22 & 10/18 \\ 
+ 3FCZ & NA & NA & NA & -/- & 31/47 & 28/45 & 19/33 & 17/31 & 22/35 & 18/27 & 18/34 \\ 
+ 1DD6 & NA & NA & NA & NA & -/- & 24/44 & 21/32 & 21/37 & 21/33 & 15/23 & 21/34 \\ 
+ 3F9O & NA & NA & NA & NA & NA & -/- & 22/37 & 19/35 & 23/38 & 17/25 & 21/36 \\ 
+ 1SML & NA & NA & NA & NA & NA & NA & -/- & 32/48 & 33/49 & 17/28 & 24/43 \\ 
+ 1JT1 & NA & NA & NA & NA & NA & NA & NA & -/- & 35/55 & 20/34 & 37/54 \\ 
+ 3LVZ & NA & NA & NA & NA & NA & NA & NA & NA & -/- & 20/31 & 31/45 \\ 
+ 2WYL & NA & NA & NA & NA & NA & NA & NA & NA & NA & -/- & 15/28 \\ 
+ GOB1 & NA & NA & NA & NA & NA & NA & NA & NA & NA & NA & -/- \\ 
+\hline 
+\end{tabular}  \label{tableseq} 
+\end{table*} 
+\end{center} 

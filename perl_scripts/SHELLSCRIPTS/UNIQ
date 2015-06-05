@@ -1,0 +1,12 @@
+#!/bin/csh -f
+
+if($#argv != 1  ) then 
+  exit 
+endif 
+
+set file=$1
+wc -l $file 
+
+sort -n $file | uniq > ! $file.uniq
+
+wc -l $file.uniq

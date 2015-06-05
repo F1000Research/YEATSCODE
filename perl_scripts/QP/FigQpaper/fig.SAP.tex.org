@@ -1,0 +1,14 @@
+
+\begin{figure}[t]
+\begin{center}
+\begin{tabular}{cc}
+    \includegraphics[scale=0.05]{SAP.png}
+\end{tabular}
+\end{center}
+\caption{
+The active site for SAP (PDB id: 1K7H) consists of 3 metal binding sites - M1 (Asp315,His319,His432) in red binds a zinc, 
+M2 (Asp37,Ser86,Asp356,His357) in green binds another zinc, while M3 (Asp37,His149,Thr151,Glu130) in yellow binds either a zinc or a magnesium ion.
+CLASP predicted active site residues for protease activity (Ser86,Asp356,His357) coincides with the M2 site containing serine. 
+} 
+	\label{FigSAP}
+\end{figure}

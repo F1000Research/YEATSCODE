@@ -1,0 +1,10 @@
+MOMENTUMDEF #QUESTION# $a # HINT #  WA1 #WA2 # Physics # LEVEL
+MOMENTUMDEF #Momentum is defined as - # velocity * mass # #  mass * acceleration # velocity * acceleration# Physics # 9 
+NEWTON2LAW #According to Newton's second law, force is proportional to # rate of change of momentum # #  rate of change of speed #rate of change of acceleration # Physics # 9
+CONVERTSPEED #Convert $x km/hr to metre/sec# # #  ## Physics # 9
+CONVERTSPEED #Convert $x km/hr to metre/sec # ANSWER # Do unitary method. In 1hr (60*60 secs) distance covered is Xkm, therefore in 1 sec how many Kms?  #  WA1 #WA2 # Physics # LEVEL
+MOMENTUM1 #The initial velocity of a ball of mass $x kg is $ym/s and the final velocity is $z metre/sec. What is the change in velocity ## #  # # Physics # 9 
+MOTION1 #An airplane accelerates down a runway at 3.20 m/s*s for 32.8 s until is finally lifts off the ground. Determine the distance traveled before takeoff# ANSWER # Use equation s = ut + 1/2*a*t*t. Remember to check unit. #  $WA1 # $WA2 # Physics # 9
+MOTION2 #efore takeoff# ANSWER # Use equation s = ut + 1/2*a*t*t. Remember to check unit. #  $WA1 # $WA2 # Physics # 9
+MOTION2 #In order to gain a velocity of $x m/s how long should a force of $yN be exerted on a body of mass $z kg that is initially in rest?# ANSWER # Find the acceleration first from the formuala: F = m*a #  WA1 #WA2 # Physics # 9
+MOMENTUM4 #A $M1 kg rifle fires a $M2g bullet at a velocity of $Vm/s find the recoil velocity of the rifle?# $a # Use the conservation of momentum concept #  WA1 #WA2 # Physics # 9

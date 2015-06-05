@@ -1,0 +1,146 @@
+% Template for PLoS
+% Version 1.0 January 2009
+%
+% To compile to pdf, run:
+% latex plos.template
+% bibtex plos.template
+% latex plos.template
+% latex plos.template
+% dvipdf plos.template
+
+\documentclass[10pt]{article}
+
+% amsmath package, useful for mathematical formulas
+\usepackage{amsmath}
+% amssymb package, useful for mathematical symbols
+\usepackage{amssymb}
+
+% graphicx package, useful for including eps and pdf graphics
+% include graphics with the command \includegraphics
+\usepackage{graphicx}
+
+% cite package, to clean up citations in the main text. Do not remove.
+\usepackage{cite}
+
+\usepackage{color} 
+
+\usepackage{subfig}
+\usepackage{subfloat}
+%\usepackage{algorithmic}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{array}
+\usepackage{multirow}
+
+
+% Use doublespacing - comment out for single spacing
+%\usepackage{setspace} 
+%\doublespacing
+
+
+% Text layout
+\topmargin 0.0cm
+\oddsidemargin 0.5cm
+\evensidemargin 0.5cm
+\textwidth 16cm 
+\textheight 21cm
+
+% Bold the 'Figure #' in the caption and separate it with a period
+% Captions will be left justified
+
+% Use the PLoS provided bibtex style
+\bibliographystyle{plos2009}
+%\bibliographystyle{unsrt}
+
+
+% Remove brackets from numbering in List of References
+\makeatletter
+\renewcommand{\@biblabel}[1]{\quad#1.}
+\makeatother
+
+\setlength{\topmargin}{0.0cm}
+\setlength{\textheight}{21.5cm}
+\setlength{\oddsidemargin}{0cm} 
+\setlength{\textwidth}{16.5cm}
+\setlength{\columnsep}{0.6cm}
+
+
+\makeatletter
+\newif\if@restonecol
+\makeatother
+\let\algorithm\relax
+\let\endalgorithm\relax
+\usepackage[ruled,vlined]{algorithm2e}
+%\bibliographystyle{natbib}
+\newenvironment{bmcformat}{\begin{raggedright}\baselineskip20pt\sloppy\setboolean{publ}{false}}{\end{raggedright}\baselineskip20pt\sloppy}
+
+% Leave date blank
+\date{}
+
+\pagestyle{myheadings}
+%% ** EDIT HERE **
+
+
+%% ** EDIT HERE **
+%% PLEASE INCLUDE ALL MACROS BELOW
+
+%% END MACROS SECTION
+
+\begin{document}
+
+% Title must be 150 characters or less
+\begin{flushleft}
+{\Large
+\input{title}
+}
+% Insert Author names, affiliations and corresponding author email.
+\\
+\input{authors}
+\end{flushleft}
+
+
+%%\begin{document}
+%
+%%\title{Identifying active sites in proteins using 3D conformity and electrostatic analysis}
+%\title{Active site detection by spatial conformity and electrostatic analysis - unravelling a promiscuous proteolytic function in shrimp alkaline phosphatase}
+ %
+%\author{Sandeep Chakraborty
+       %\email{Sandeep Chakraborty - sandeepchak@tifr.res.in}
+      %\and
+         %Renu Minda%
+         %\email{Renu Minda - renuminda@tifr.res.in}
+       %\and 
+         %Swapan K. Bhattacharjee%
+         %\email{Swapan K. Bhattacharjee - swapan1943@tifr.res.in}
+       %and 
+         %Basuthkar J. Rao\correspondingauthor
+         %\email{Basuthkar J. Rao\correspondingauthor - bjrao@tifr.res.in}
+      %}
+      %
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%                                          %%
+%%% Enter the authors' addresses here        %%
+%%%                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\address{%
+    %\iid(1)Department of Biological Sciences, Tata Institute of Fundamental Research, Homi Bhabha Road, Mumbai 400 005, India.
+%}%
+
+%\maketitle
+%\begin{bmcformat}
+\begin{abstract}
+\input{abstract}
+
+%\section{Contact:} \href{sandeepchak@tifr.res.in}{sandeepchak@tifr.res.in}
+
+\end{abstract}
+
+%\section*{Author Summary}
+%\input{authorsummary}
+\section*{Introduction}
+\input{introduction}
+
+%\bibliography{paper}
+\end{document}

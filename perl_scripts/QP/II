@@ -1,0 +1,21 @@
+sub COORDGEOM2  {
+	my $level = " 9 "; 
+	my ($x1,$x2,$y1,$y2) =  QP_GetNRandomNumbersBelowValueBothSign(4,20); 
+	my ($n1,$n2,$n3,$n4) =  QP_GetNRandomNumbersBelowValue(4,20); 
+	my $subject = "MATHS"; 
+	my $X =  ($n1*$x2 + $n2*$x1)/($n1+$n2);
+	my $Y =  ($n1*$y2 + $n2*$y1)/($n1+$n2);
+    my $XX = $X + 5 ;
+    my $YY = $Y + 5 ;
+	my $a = "($X,$Y)";
+	my @WA ; 
+	my $WA1 =  "($X,$YY)";
+	my $WA2 =  "($XX,$Y)";
+	my $question =" Find the coordinate of the point that divides the points ($x1,$y1) and ($x2, $y2) internally in the ratio of $n1:$n2? " ; 
+	my $answer = " $a  " ; 
+	my $hint = " HINT  ";
+	push @WA , $WA1  ;
+	push @WA , $WA2  ;
+	my ($ANSLIST,$correctindex) = QP_InsertCorrectAnswer($answer,@WA);
+	($question,$answer,$hint,$ANSLIST,$correctindex);
+}

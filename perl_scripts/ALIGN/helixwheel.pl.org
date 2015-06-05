@@ -1,0 +1,371 @@
+#!/usr/bin/perl -w 
+use strict ;
+use PDB;
+use FileHandle ;
+use Getopt::Long;
+use Cwd ;
+use MyUtils;
+use ConfigPDB;
+use MyGeom;
+use MyPymol;
+use Math::Geometry ;
+use Math::VectorReal qw(:all);  # Include O X Y Z axis constant vectors
+use Math::VectorReal qw(:all);  # Include O X Y Z axis constant vectors
+use Scalar::Util qw(looks_like_number);
+
+
+use Math::Trig;
+
+
+
+
+use Time::HiRes qw( usleep ualarm gettimeofday tv_interval clock_gettime clock_getres  clock);
+use POSIX qw(floor);
+my $commandline = util_get_cmdline("",\@ARGV) ;
+my ($justseqeunce,$aalist,$cutoff,$exception,$ann,$config,$p1,$p2,$infile,$score,$ignorepro,$outfile,$which_tech,$listfile,$protein);
+my $maxdist ;
+my $DISTANCEWITHOUTSEQMATCH = 1 ;
+my $verbose = 1 ;
+
+$cutoff = 0.012 ;
+my $MINSAMPLE = 1 ;
+$ignorepro = 0 ;
+
+
+
+my $tableATOM = {};
+$tableATOM->{LYS} = "NZ";
+$tableATOM->{ARG} = "NH1";
+$tableATOM->{HIS} = "ND1";
+$tableATOM->{SER} = "OG";
+$tableATOM->{THR} = "OG1";
+$tableATOM->{CYS} = "SG";
+$tableATOM->{ASN} = "OD1";
+$tableATOM->{GLN} = "NE2";
+$tableATOM->{TYR} = "CB";
+$tableATOM->{PHE} = "CB";
+$tableATOM->{TRP} = "CB";
+$tableATOM->{ASP} = "OD1";
+$tableATOM->{GLU} = "OE1";
+$tableATOM->{GLY} = "CA";
+$tableATOM->{VAL} = "CB";
+$tableATOM->{ALA} = "CB";
+$tableATOM->{LEU} = "CB";
+$tableATOM->{MET} = "CB";
+$tableATOM->{ILE} = "CB";
+$tableATOM->{PRO} = "CB";
+my ($verify,$radii,$before1,$before2);
+GetOptions(
+            "which_tech=s"=>\$which_tech ,
+            "verify"=>\$verify ,
+            "p1=s"=>\$p1 ,
+            "aalist=s"=>\$aalist ,
+            "p2=s"=>\$p2 ,
+            "infile=s"=>\$infile ,
+            "listfile=s"=>\$listfile ,
+            "outfile=s"=>\$outfile ,
+            "protein=s"=>\$protein ,
+            "ann=s"=>\$ann ,
+            "maxdist=f"=>\$maxdist ,
+            "cutoff=f"=>\$cutoff ,
+            "config=s"=>\$config,
+            "justseqeunce=s"=>\$justseqeunce,
+            "score=s"=>\$score,
+            "ignorepro=i"=>\$ignorepro,
+            "radii=i"=>\$radii ,
+            "exception=s"=>\$exception ,
+           );
+die "Dont recognize command line arg @ARGV " if(@ARGV);
+#usage( "Need to give a config file name => option -config ") if(!defined $config);
+usage( "Need to give a protein -option -protein  ") if(!defined $protein);
+my ($RESULTDIR,$PDBDIR,$FASTADIR,$APBSDIR,$FPOCKET,$SRC) = util_SetEnvVars();
+$outfile = "$protein.wheel.tikz.tex";
+my $fastacircular = "$protein.circular.fasta";
+my $ofhcircular= util_write("$fastacircular");
+my $ofh= util_write("$outfile");
+my $ofhpymol= util_write("pymol.in");
+my $ofhdata = util_append("allvalues");
+my $ofhcommands = util_append("commands");
+
+usage( "Need to give a aalist => option -aalist ") if(!defined $aalist);
+my ($aainfo,$grplist) = util_ParseAAGroups($aalist);
+
+ConfigPDB_Init($config);
+
+my $pdb = "$PDBDIR/$protein.pdb";
+my $pdb1 = new PDB();
+$pdb1->ReadPDB($pdb);
+
+my $colortable = {};
+my $value = {};
+my $chargedtable = {};
+my @NP = qw(G P A V L I M );
+foreach my $k (@NP){
+	$colortable->{$k} = "red";
+	$value->{$k} = 100 ;
+}
+
+my @pos = qw (H K R);
+foreach my $k (@pos){
+	$chargedtable->{$k} = 1 ;
+	$colortable->{$k} = "blue";
+	$value->{$k} = 100 ;
+}
+
+my @neg = qw (E D); 
+foreach my $k (@neg){
+	$chargedtable->{$k} = -1 ;
+	$colortable->{$k} = "blue";
+	$value->{$k} = 60 ;
+}
+my @amide = qw(Q N );
+foreach my $k (@amide){
+	$colortable->{$k} = "blue";
+	$value->{$k} = 10 ;
+}
+
+my @misc = qw(F Y W C S T);
+foreach my $k (@misc){
+	$colortable->{$k} = "red";
+	$value->{$k} = 75 ;
+}
+
+my $HYDROVAL = {};
+## from "Computer programs to identify and classify amphipathic a helical domains"
+$HYDROVAL->{MET} = 0.975;
+$HYDROVAL->{ILE} = 0.913;
+$HYDROVAL->{LEU} = 0.852;
+$HYDROVAL->{VAL} = 0.811;
+$HYDROVAL->{CYS} = 0.689;
+$HYDROVAL->{ALA} = 0.607;
+$HYDROVAL->{THR} = 0.525;
+$HYDROVAL->{GLY} = 0.484;
+$HYDROVAL->{SER} = 0.402;
+$HYDROVAL->{HIS} = 0.333;
+$HYDROVAL->{PRO} = 0.239;
+$HYDROVAL->{PHE} = 1.036;
+$HYDROVAL->{TRP} = 0.668;
+$HYDROVAL->{TYR} = 0.137;
+$HYDROVAL->{GLN} = -0.558;
+$HYDROVAL->{ASN} = -0.701;
+$HYDROVAL->{GLU} = -1.396;
+$HYDROVAL->{LYS} = -1.518;
+$HYDROVAL->{ASP} = -1.600;
+$HYDROVAL->{ARG} = -2.233;
+
+my $hydroval = {};
+foreach my $k (keys %{$HYDROVAL}){
+	my $single = $pdb1->GetSingleLetter($k);
+	$hydroval->{$single} = $HYDROVAL->{$k};
+}
+
+
+
+print $ofh "% for protein $protein \n";
+    
+    my @res = $pdb1->GetResidues();
+    my $N = @res;
+	my $cnt = 0 ;
+
+	my @singles ;
+	my @numbers ;
+	if(! defined $justseqeunce){
+	     foreach my $r (@res){
+	         die if($r->GetAtomStr() eq "HETATM");
+	         die if($r->GetName() eq "HOH");
+		     my $single =  $r->PrintSingleLetter($pdb1);
+		     push @singles, $single ;
+		     my $num = $r->GetResNum();
+		     push @numbers, $num ;
+	     }
+	}
+	else{
+        my $ifh = util_read($justseqeunce);
+		my $sequence = "";
+        while(<$ifh>){
+             next if(/^\s*$/);
+             next if(/^\s*>/);
+             chop ;
+			 $sequence = $sequence . $_ ;
+        }
+		$sequence =~ s/\s*//g ;
+		@singles = split "", $sequence ;
+		my $N = @singles;
+		foreach my $i (1..$N){
+			push @numbers, $i ; 
+		}
+        close($ifh);
+	}
+
+
+	#my @lol ;
+	#$lol[0] = []; $lol[1] = []; $lol[2] = []; $lol[3] = [];
+    my $done = {};
+    my $initval = -270 ; 
+    my $rad = 5 ; 
+	my $loopcnt = 0 ;
+
+	my @centre = qw (0 0 0);
+	my $finalveccharged; 
+	my $finalvechydro; 
+
+	my $TOTALCHARGED = 0 ;
+	my $TOTALPOS = 0 ;
+
+
+	my $bins = {};
+	my $TOTALNUM = 0 ; 
+	my $circularseq = {};
+	my $circularval = {};
+	while(@singles){
+		$TOTALNUM++;
+		my $single =  shift @singles ;
+		my $num = shift @numbers ;
+
+
+		my $idxcnt = $loopcnt % 4 ;
+		if(!defined $bins->{$idxcnt}){
+			$bins->{$idxcnt} = [];
+		}
+
+
+		my $x = $pdb1->{SINGLE2THREE}->{$single} ;
+		my $what = $tableATOM->{$x};
+		#print "$x/$num/$what $idxcnt $x\n";
+		my $SSSS = $single . $num;
+
+		push @{$bins->{$idxcnt}}, "$x/$num/$what" ;
+
+        my $val = $initval - $loopcnt * 100 ; 
+		
+		my $cval = (deg2rad($val ));
+		while( exists $circularval->{$cval}){
+			$cval = $cval + 0.01;
+		}
+		$circularseq->{$SSSS} = $cval ; 
+		$circularval->{$cval} = 1 ;
+
+        my $x = util_format_float($rad * cos(deg2rad($val)),1) + 0 ;
+        my $y = util_format_float($rad * sin(deg2rad($val)),1) + 0 ;
+        my $str = "$x.$y";
+
+		my @thispoint ; 
+		push @thispoint, $x ;
+		push @thispoint, $y ;
+		push @thispoint, 0 ;
+
+		    my $VEC = MakeVectorFrom2Points(\@centre,\@thispoint) ;
+		    my $tmpvec = $VEC->norm * $hydroval->{$single} ;
+		    if(!defined $finalvechydro){
+			    $finalvechydro = $tmpvec ;
+		    }
+		    else{
+			    $finalvechydro = $finalvechydro + $tmpvec ;
+		    }
+
+		if(exists $chargedtable->{$single}){
+			$TOTALCHARGED++;
+			my $factor = $chargedtable->{$single} ;
+			if($factor eq 1){
+				$TOTALPOS++;
+			}
+		    #my $tmpvec = $VEC->norm * $hydroval->{$single} *$factor;
+		    my $tmpvec = $VEC->norm * $factor;
+		    if(!defined $finalveccharged){
+			    $finalveccharged = $tmpvec ;
+		    }
+		    else{
+			    $finalveccharged = $finalveccharged + $tmpvec ;
+		    }
+		}
+
+        while(exists $done->{$str}){
+            #print "$str existed\n";
+            $y = $y + 1 ;	
+            $str = "$x.$y";
+        }
+        $done->{$str} = 1 ;
+		my $color = $colortable->{$single};
+		my $VAL = $value->{$single};
+		#my $VAL = 100 ;
+        print $ofh "\\node[fill=$color!$VAL,draw=blue,very thick] (FinalNode) at ($x, $y) {$single$num} ; \n" ;
+		print $ofhpymol "select A, /PDBB//A/$num/CA\n";
+		print $ofhpymol "# $single\n";
+		print $ofhpymol "color $color, A\n";
+
+
+		$loopcnt++;
+		#push @{$lol[$idxcnt]}, $r ;
+	}
+
+    print $ofhcircular ">$fastacircular\n";
+	foreach my $k (sort { $circularseq->{$a} <=> $circularseq->{$b}} keys %{$circularseq}){
+		my $v = $circularseq->{$k};
+		my ($firstletter) = ($k =~ /(.)/);
+		print $ofhcircular "$firstletter";
+
+	}
+		print $ofhcircular "\n";
+
+
+	#### FOR CLASP #########
+    my ($REALPDB) = ($protein =~ /(....)/) ;
+	$REALPDB = $REALPDB . "A";
+	foreach my $k (sort  keys %{$bins}){
+		my $l = $bins->{$k} ;
+		my $CONCATSTR = "";
+		my $cntconcat = 0 ;
+		foreach my $i (@{$l}){
+			$cntconcat++;
+			$CONCATSTR = $CONCATSTR . " $i ";
+		}
+		if($cntconcat > 1){
+		    print $ofhcommands "echo $CONCATSTR > ! IN \n";
+		    print $ofhcommands "printPairwiseOneAfterAnother.pl -out out -c \$CONFIGGRP -ra 222 -pr $REALPDB -in IN -helix $protein \n";
+		}
+	}
+
+my $Lcharged = 0  ;
+my $cx = 0 ;
+my $cy = 0 ;
+if(defined $finalveccharged){
+    $Lcharged = util_format_float($finalveccharged->length,1) ;
+    ($cx) = $finalveccharged->x * 1;
+    ($cy) = $finalveccharged->y * 1;
+}
+my $Lhydro = util_format_float($finalvechydro->length,1) ;
+
+my ($hx) = $finalvechydro->x * 1;
+my ($hy) = $finalvechydro->y * 1;
+print $ofh "\\node[fill=black!10,draw=yellow,very thick] (HPH) at ($hx, $hy) {\$\\mu_{h}\$} ; \n" ;
+#print $ofh "\\node[fill=white!100,draw=blue,very thick] (Ch) at ($cx, $cy) {Ch} ; \n" ;
+
+print $ofh "\\node[fill=blue!100,draw=blue] (centre) at (0, 0) {} ;\n";
+
+  print $ofh "\\begin{scope}[every path/.style=line]\n";
+   print $ofh "\\path          (centre) -- node [near end] {$Lhydro} (HPH);\n";
+   #print $ofh "\\path          (centre) -- node [near end] {$Lcharged} (Ch);\n";
+print $ofh "\\end{scope}\n";
+
+my $PERCENTPOS = -1 ;
+if($TOTALCHARGED){
+    $PERCENTPOS = util_format_float($TOTALPOS/$TOTALCHARGED,1);
+}
+
+print "TIKZ o/p written to $outfile Lcharged = $Lcharged and Lhydro = $Lhydro PERCENTPOS = $PERCENTPOS TOTALNUM = $TOTALNUM \n";
+
+
+#print $ofhdata "$protein $N $Lhydro $Lcharged $PERCENTPOS \n";
+print $ofhdata "$protein $N $Lhydro $PERCENTPOS $TOTALCHARGED \n";
+close($ofh);
+system("unlink in ; ln -s $outfile in");
+
+sub usage{
+    my ($msg) = @_ ;
+    print $msg , "\n" ; 
+print << "ENDOFUSAGE" ; 
+ENDOFUSAGE
+    die ;
+}
+
+

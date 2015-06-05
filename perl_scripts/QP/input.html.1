@@ -1,0 +1,280 @@
+<script type="text/javascript">
+var myArray = [];
+
+ 
+
+myArray[0]=" Find the sum of:  - 20 - 10 - 3 - 4 + 3  #-34#-31 #-39 #-34 #2#Group positive and negative numbers together#ADDMULTIPLE#6#" ; 
+ myArray[1]=" 252  /  14 = ?#18#25 #16 #18 #2#See if there are common factors#DIV#6#" ; 
+ myArray[2]=" 1.8  X  0.1 = ?#0.18#0.18 #7.18 #-5.82 #0#No hints, sorry...#MULT#6#" ; 
+ myArray[3]=" 8/10 + 7/12#1.38#4.38 #-3.62 #1.38 #2#Find the LCM of 10 and 12#FRACTIONS#6#" ; 
+ myArray[4]="  Arrange in  ascending  order 7/9 , 3/12 , 10/15 # 3/12, 10/15, 7/9 # 7/9, 3/12, 10/15  # 7/9, 10/15, 3/12  # 3/12, 10/15, 7/9  #2#Like fractions, make the denominator the same by finding LCM#ASCDESC#6#" ; 
+ myArray[5]="  Radius of a circle is 56 cm. Find its area#9856#9868 #9843 #9856 #2#Area = pi *r *r ; Circumference = 2 * pi * r ; pi = 22/7 ; #CIRCLE#8#" ; 
+ myArray[6]=" 3 women can build a house in 6 days. How many days will 18 women build it?#1#15 #-13 #1 #2#Find out how many days will 1 women take to make a house. Think whether 1 women will take more days or less days - and divide or multiply accordingly#UNITARYWORK#6#" ; 
+ myArray[7]=" 4 apples costs Rs 9 . What is the cost of 28 apples?#63#73 #53 #63 #2#Find out how what is the cost of 1 apples#UNITARYCOST#6#" ; 
+ myArray[8]=" Find the square root of 17 + sqrt(288)#sqrt(9) + sqrt(8)#sqrt(1) + sqrt(5) #sqrt(9) + sqrt(8) #sqrt(2) + sqrt(3) #1#Remember (a+b)^2 = a^2 + 2ab + b^2. Try to factor the expresion under the root into a 4. Thus, a 2 will come out of the square root.#SQUAREROOTIRRATIONAL#9#" ; 
+ myArray[9]=" Multiply ( +2a+2b) ( -5a-5b) # -10aa -20ab -10bb# -3aa +1ab +10bb # -10aa -20ab -10bb # -9aa +30ab -25bb #1#No hints, sorry...#MULTEXPR#8#" ; 
+ myArray[10]=" Factorise  +15aa +5ab -20bb#( +5a-5b) ( +3a+4b) #( -5a+4b) ( +2a-1b)  #( -5a-2b) ( +5a-2b)  #( +5a-5b) ( +3a+4b)  #2#No hints, sorry...#FACTOREXPR#9#" ; 
+ myArray[11]=" Ritu and Amrita have some money. If you multiply Ritu 's money by 1 and Amrita 's money by 10 and add them up, you get Rs 37. If you multiply Ritu 's money by 11 and Amrita 's money by 13 and add them up, you get Rs 116. How much money does each person have? #Ritu = 7, Amrita = 3#Ritu = 6, Amrita = 14 #Ritu = 15, Amrita = 1 #Ritu = 7, Amrita = 3 #2#Set up the simulataneous equation using x and y. Eliminate one variable by making the coefficient same, and then subtracting#EQN_MONEY#9#" ; 
+
+ myArray[12]=" Factorize 216*z*z*z + 27*r*r*r#(6z*z + 3r*r) (36z*z + 18zr + 9r*r)  #(6z*z + 3r*r) (36z*z + 18zr + 9r*r)   #(6z*z + 13r*r) (11z*z + 4zr + 10r*r)   #(9z*z + 3r*r) (7z*z + 14zr + 6r*r)   #0#a*a*a + b*b*b = (a - b)(a*a + ab + b*b) and a*a*a - b*b*b = (a + b)(a*a - ab + b*b)#FACTOREXPR_CUBE#9#" ; 
+ myArray[13]=" According to Newton's second law, force is proportional to  #rate of change of momentum  #rate of change of speed   #rate of change of acceleration   #rate of change of momentum   #2#No hints, sorry...#NEWTON2LAW#9#" ; 
+ myArray[14]=" The initial velocity of a ball of mass 2 kg is 10 metre/s and the final velocity is 13 metre/sec. What is the change in velocity  #3 metre/sec #3 metre/sec  #5 metre/sec  #1 metre/sec  #0#  #MOMENTUM1#9#" ; 
+ myArray[15]=" The initial velocity of a ball of mass 2 kg is 5 metre/s and the final velocity is 12 metre/sec. What is the change in momentum?  #14 (kg*metre)/sec #14 (kg*metre)/sec  #16 (kg*metre)/sec  #26 (kg*metre)/sec  #0#  #MOMENTUM2#9#" ; 
+ myArray[16]=" The initial velocity of a ball of mass 6 kg is 4 metre/s, and after 7 secs the final velocity is 12 metre/sec. What is the rate of change in momentum?#6.85714285714286 metre/(sec*sec) #50 (kg*metre)/sec  #6.85714285714286 metre/(sec*sec)  #39.1428571428571 (kg*metre)/sec  #1#  #MOMENTUM3#9#" ; 
+ myArray[17]=" A 2 kg rifle fires a 11 g bullet at a velocity of 14 m/s find the recoil velocity of the rifle? # 77  #82 #72 # 77   #2# Use the conservation of momentum concept  #MOMENTUM4#9#" ; 
+ myArray[18]=" An airplane accelerates down a runway at 5 m/s*s for 2 s until is finally lifts off the ground. Determine the distance traveled before takeoff # 10  # 10   #5 #15 #0# Use equation s = ut + 1/2*a*t*t. Remember to check unit.  #MOTION1#9#" ; 
+ myArray[19]=" In order to gain a velocity of 15 m/s how long should a force of 14 N be exerted on a body of mass 12 kg that is initially at rest? #12.8571428571429#12.8571428571429 #15.8571428571429 #9.85714285714286 #0# Find the acceleration first from the formuala: F = m*a  #MOTION2#9#" ; 
+ 
+ 
+ 
+var index = 0 ; 
+var question ; 
+var hint ; 
+var answer ; 
+var ANS1, ANS2, ANS3 ; 
+var resultstr = "" ; 
+var levelset = "6";
+var qlevel ;
+
+var checked = 0 ; 
+var questiondone = 1 ; 
+var whichone ; 
+var qtype ; 
+var lastQtype = "" ; 
+var subject = "" ; 
+var subjectset = "" ; 
+var correctA = 0 ; 
+
+function GenerateNewQuestion(val,e){
+
+    var radios = document.getElementsByName("levelname");
+	 for (var i = 0; i < radios.length; i++) {       
+		if (radios[i].checked) {
+		levelset = (radios[i].value);
+		break;
+     }
+	}
+    var subjects = document.getElementsByName("subjectname");
+	 for (var i = 0; i < subjects.length; i++) {       
+		if (subjects[i].checked) {
+		subjectset = (subjects[i].value);
+		break;
+     }
+	}
+
+
+   if(index != 0 && checked == 0){
+   	  alert("Please answer this question before moving to the next");
+	  return ;
+   }
+   if(questiondone == 0){
+   	  alert("Please press the submit button");
+	  return ;
+   }
+
+   // Cookie processing
+   if(0 && index == 0){
+	  index  = (WM_readCookie("index"));
+	  if(index == false || index >= myArray.length){
+	  	index = 0 ;
+	  }
+	  // resultstr  = (WM_readCookie("previous"));
+      // parent.resultsframe.document.getElementById('theresults').innerHTML = resultstr;
+   }
+
+
+   checked = 0 ; 
+   questiondone = 0 ; 
+   whichone = "" ; 
+
+   var n= myArray[index].split("#");
+   qlevel = 10000;
+   while(qlevel != levelset){
+   	   index++;
+       n= myArray[index].split("#");
+       question = n[0];
+       answer = n[1];
+       ANS1 = n[2];
+       ANS2 = n[3];
+       ANS3 = n[4];
+       correctindex = n[5];
+       hint = n[6];
+       qtype = n[7];
+       qlevel = n[8];
+       subject = n[9];
+	   //if(correctA == 0 && lastQtype != "" && qtype != lastQtype){
+	     //qlevel = -1 ;	
+	   //}
+   }
+   //alert(qlevel + "=qlevel " + level + " =level " + index + " - index") ;
+   question = question ;
+
+
+
+
+   document.getElementById('SubmitAnswer').innerHTML = "Choose correct answer and click here to submit" ;
+   document.getElementById('Question').innerHTML = question ;
+   document.getElementById('GenNextQuestion').innerHTML = "Best of luck" ;
+   //document.getElementById('AnswerId').innerHTML = "";
+   document.getElementById('Hint').innerHTML =  "";
+
+   var checkboxvar1 = document.getElementById('A1');
+   checkboxvar1.checked = false;
+   var labelvar1 = document.getElementById('L1');
+   labelvar1.innerHTML = ANS1 ;
+   labelvar1.style.color="red";
+
+   var checkboxvar2 = document.getElementById('A2');
+   checkboxvar2.checked = false;
+   var labelvar2 = document.getElementById('L2');
+   labelvar2.innerHTML = ANS2 ;
+   labelvar2.style.color="green";
+
+   var checkboxvar3 = document.getElementById('A3');
+   checkboxvar3.checked = false;
+   var labelvar3 = document.getElementById('L3');
+   labelvar3.innerHTML = ANS3 ;
+   labelvar3.style.color="orange";
+
+   index++;
+}
+
+function insertHint(){
+   document.getElementById('Hint').innerHTML = hint ;
+}
+
+var cnt = 1 ; 
+function CheckAnswer(){
+	var samestring = "\nThe question was:\"" + question + "\".\n And the answer is " + answer  ; 
+	 if(!checked){
+	        alert("Need to choose at least one of the boxes");
+	 }
+	 else{
+	    questiondone = 1 ;
+		lastQtype = qtype ;
+	 	if((correctindex == 0 && whichone != "A1") || (correctindex == 1 && whichone != "A2") || (correctindex == 2 && whichone != "A3")){
+			 var response = qtype + ". Sorry, you got it wrong." + samestring ;
+             //document.getElementById('AnswerId').innerHTML = response ;
+			 resultstr = resultstr + cnt+ ")"  + response + "\n\n";
+             //parent.resultsframe.document.getElementById('theresults').innerHTML = resultstr ; 
+			 //parent.resultsframe.document.getElementById('theresults').style.color="red";
+             document.getElementById('theresults').innerHTML = resultstr ; 
+			 document.getElementById('theresults').style.color="red";
+			 correctA = 0 ;
+			 
+		}
+		else{
+			 var response = qtype + ". Congratulations !! You got it right. " + samestring ;
+             //document.getElementById('AnswerId').innerHTML       = response ;
+			 resultstr = resultstr + cnt+ ")"  + response + "\n\n";
+             //parent.resultsframe.document.getElementById('theresults').innerHTML = resultstr;
+			 //parent.resultsframe.document.getElementById('theresults').style.color="green";
+             document.getElementById('theresults').innerHTML = resultstr;
+			 document.getElementById('theresults').style.color="green";
+			 correctA = 1 ;
+		}
+		document.cookie = "previous=" + escape (resultstr) ; 
+		document.cookie = "index=" + escape (index) ; 
+		cnt++;
+             //parent.resultsframe.document.getElementById('theresults').innerHTML = "www.google.com";
+	 }
+	 window.setInterval(GenerateNewQuestion('Hello ','Question'),300000);
+}
+
+function ChecktheCheckboxes(thecheckbox, thelabel) {
+
+    var checkboxvar = document.getElementById(thecheckbox);
+    var labelvar = document.getElementById(thelabel);
+    if (checkboxvar.checked){
+	    if(checked) {
+	        alert("Can not check two boxes - please uncheck one");
+			checkboxvar.checked = false;
+		}
+		else{
+			checked = 1 ; 
+			whichone = thecheckbox ;
+		}
+    }
+    else {
+	     checked = 0 ; 
+    }
+}
+
+function WM_readCookie(name) {
+if (document.cookie == '') {
+// there's no cookie, so go no further
+return false;
+} else {
+// there is a cookie
+var firstChar, lastChar;
+var theBigCookie = document.cookie;
+firstChar = theBigCookie.indexOf(name);
+// find the start of 'name'
+if(firstChar != -1) {
+// if you found the cookie
+firstChar += name.length + 1;
+// skip 'name' and '='
+lastChar = theBigCookie.indexOf(';', firstChar);
+// Find the end of the value string (i.e. the next ';').
+if(lastChar == -1) lastChar = theBigCookie.length;
+return unescape(theBigCookie.substring(firstChar, lastChar));
+} else {
+// If there was no cookie of that name, return false.
+return false;
+}
+}
+}
+// WM_readCookie
+
+
+
+</script>
+
+<button id="GenNextQuestion" onclick="javascript:GenerateNewQuestion('Hello ','Question');">Press to start</button>  
+</br>
+<button >Choose Class/Level</button> 
+<INPUT TYPE="Radio" Name="levelname" id ="level6" Value="6">6
+<INPUT TYPE="Radio" Name="levelname" id ="level7" Value="7">7
+<INPUT TYPE="Radio" Name="levelname" id ="level8" Value="8">8
+<INPUT TYPE="Radio" Name="levelname" id ="level9" Value="9" checked>9
+</br>
+
+<button >Choose Subject</button> 
+<INPUT TYPE="Radio" Name="subjectname" id ="Maths" Value="Maths">Maths
+<INPUT TYPE="Radio" Name="subjectname" id ="Science" Value="Science">Science
+<INPUT TYPE="Radio" Name="subjectname" id ="Both" Value="Both" checked>Both
+</div>
+
+</br>
+
+<textarea id="Question" rows="4" cols="50"></textarea>
+<textarea id="theresults" rows="20" cols="100"></textarea><br/>
+</br>
+
+
+<input type="checkbox" class="checkit" name="A1" id="A1" value="1" onclick="ChecktheCheckboxes('A1','L1');" />
+<label for="smoking" name="L1" id="L1"></label>
+</br>
+
+<input type="checkbox" class="checkit" name="A2" id="A2" value="1" onclick="ChecktheCheckboxes('A2','L2');" />
+<label for="smoking" name="L2" id="L2"></label>
+</br>
+
+<input type="checkbox" class="checkit" name="A3" id="A3" value="1" onclick="ChecktheCheckboxes('A3','L3');" />
+<label for="smoking" name="L3" id="L3"></label>
+</br>
+
+<button id="SubmitAnswer" onclick="javascript:CheckAnswer();"></button> 
+</br>
+
+<textarea id="Hint" rows="2" cols="50"></textarea><br />
+<a href="javascript:insertHint();" onClick="void(0)">Do you want a hint?</a>
+<!--
+<textarea id="AnswerId" rows="4" cols="50"></textarea><br />
+<a></a>
+-->
+
+</br>
+</br>
+</br>
+</br>

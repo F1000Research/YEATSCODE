@@ -1,0 +1,28 @@
+MOMENTUMDEF #QUESTION# $a # HINT #  WA1 #WA2 #SCIENCE# LEVEL
+MOMENTUMDEF #QUESTION# $a # HINT #  WA1 #WA2 #MATHS# LEVEL
+MOMENTUM4 #A $M1 kg rifle fires a $M2g bullet at a velocity of $Vm/s find the recoil velocity of the rifle?# $a # Use the conservation of momentum concept #  WA1 #WA2 # Physics # 9
+PERCENT1 #If you have scored $x marks in $subject out of $y marks, what is the percentage of marks scored by you# $a # Use unitary method - find out how much you scored in if the exam was of 1 marks, and then if the exam was of 100 marks. That is the percentage #  WA1 #WA2 #MATHS# 7
+TRIANGLEANGLE1 #The angles of a triangle are in the ratio of $x, $y and $z. Find their absolute values# $a #  #  WA1 #WA2 #MATHS# 8
+MOMENTUM4 #A $M2g bullet at a travelling at a velocity of $Vm/s hits a stationary plank of wood of mass $M1g and gets embedded in the plank. What is the velocity with which the combined mass of the wood and the bullet moves ?# $a # Use the conservation of momentum concept #  WA1 #WA2 # Physics # 9
+EQN1 # What number added to $x gives $y?# $a # HINT #  WA1 #WA2 #MATHS# 6 
+EQN2 # What number multiplied by $x gives $y?# $a # HINT #  WA1 #WA2 #MATHS# 6 
+EQN3 # What number divided by $x gives $y?# $a # HINT #  WA1 #WA2 #MATHS# 9 
+
+COORDGEOM1 # What is the distance between the points ($x1,$y1) and ($x2, $y2)?# $a # HINT #  WA1 #WA2 #MATHS# 9 
+COORDGEOM2 # Find the coordinate of the point that divides the points ($x1,$y1) and ($x2, $y2) internally in the ratio of $n1:$n2?# $a # HINT #  WA1 #WA2 #MATHS# 9 
+
+
+
+RATIO1 #x is directly proportional to y. When x is $n1, y is $n2.  Find x when y is $n3. # $a # HINT #  WA1 #WA2 #MATHS# 8
+RATIO2 # Find the unknown value in the proportion:  $n1 : x = $n2 : $n3. # $a # HINT #  WA1 #WA2 #MATHS# 8
+RATIO3 #One piece of pipe $n1 meters long is to be cut into two pieces, with the lengths of the pieces being in a $x1 : $x2 ratio. What are the lengths of the pieces?# $a # HINT #  WA1 #WA2 #MATHS# 8
+
+GEOMAreaofRightAngleTriangle #What is the area of a right angled triangle with base = $n1 cm and height = $n2 cm ? # $a # HINT #  WA1 #WA2 #MATHS# 8
+GEOMAreaofIsocelesTriangle #What is the area of a isosceles triangle with base = $n1 cm and height = $n2 cm ? # $a # HINT #  WA1 #WA2 #MATHS# 8
+GEOMCircleFindRadiiFromChord #What is the radius of a circle with a chord = $n1 cm and distance of the chord from centre = $n2? cm # $a # HINT #  WA1 #WA2 #MATHS# 8
+
+
+EQN_TWONUMBERRATIO #Two numbers are in the ratio $n1. If you add $x1 to both, their ratio becomes $n2. Find the numbers :# $a # HINT #  WA1 #WA2 #MATHS# LEVEL
+AP_FINDNTHTERM #Find the $n1 th term of the AP given by # $a # #  WA1 #WA2 #MATHS# 10
+
+ELEC_CURRENT #Find the $n1 th term of the AP given by # $a # #  WA1 #WA2 #SCIENCE# 10

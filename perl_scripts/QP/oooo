@@ -1,0 +1,75 @@
+sub MOMENTUMDEF  {
+	my $level = " LEVEL"; 
+	my $subject = "SCIENCE"; 
+	my $a =   
+	my @WA ; 
+	my $WA1 =  $a  + 5 ; 
+	my $WA2 =   $a  - 5; 
+	my $question ="QUESTION " ; 
+	my $answer = " $a  " ; 
+	my $hint = " HINT  ";
+	push @WA , $WA1  ;
+	push @WA , $WA2  ;
+	my ($ANSLIST,$correctindex) = QP_InsertCorrectAnswer($answer,@WA);
+	($question,$answer,$hint,$ANSLIST,$correctindex);
+}
+sub MOMENTUMDEF  {
+	my $level = " LEVEL"; 
+	my $subject = "MATHS"; 
+	my $a =   
+	my @WA ; 
+	my $WA1 =  $a  + 5 ; 
+	my $WA2 =   $a  - 5; 
+	my $question ="QUESTION " ; 
+	my $answer = " $a  " ; 
+	my $hint = " HINT  ";
+	push @WA , $WA1  ;
+	push @WA , $WA2  ;
+	my ($ANSLIST,$correctindex) = QP_InsertCorrectAnswer($answer,@WA);
+	($question,$answer,$hint,$ANSLIST,$correctindex);
+}
+sub MOMENTUM4  {
+	my $level = " 9"; 
+	my $subject = " Physics "; 
+	my $a =   
+	my @WA ; 
+	my $WA1 =  $a  + 5 ; 
+	my $WA2 =   $a  - 5; 
+	my $question ="A $M1 kg rifle fires a $M2g bullet at a velocity of $Vm/s find the recoil velocity of the rifle? " ; 
+	my $answer = " $a  " ; 
+	my $hint = " Use the conservation of momentum concept  ";
+	push @WA , $WA1  ;
+	push @WA , $WA2  ;
+	my ($ANSLIST,$correctindex) = QP_InsertCorrectAnswer($answer,@WA);
+	($question,$answer,$hint,$ANSLIST,$correctindex);
+}
+sub PERCENT1  {
+	my $level = " 7"; 
+	my $subject = "MATHS"; 
+	my $a =   
+	my @WA ; 
+	my $WA1 =  $a  + 5 ; 
+	my $WA2 =   $a  - 5; 
+	my $question ="If you have scored $x marks in $subject out of $y marks, what is the percentage of marks scored by you " ; 
+	my $answer = " $a  " ; 
+	my $hint = " Use unitary method - find out how much you scored in if the exam was of 1 marks, and then if the exam was of 100 marks. That is the percentage  ";
+	push @WA , $WA1  ;
+	push @WA , $WA2  ;
+	my ($ANSLIST,$correctindex) = QP_InsertCorrectAnswer($answer,@WA);
+	($question,$answer,$hint,$ANSLIST,$correctindex);
+}
+sub TRIANGLEANGLE1  {
+	my $level = " 8"; 
+	my $subject = "MATHS"; 
+	my $a =   
+	my @WA ; 
+	my $WA1 =  $a  + 5 ; 
+	my $WA2 =   $a  - 5; 
+	my $question ="The angles of a triangle are in the ratio of $x, $y and $z. Find their absolute values " ; 
+	my $answer = " $a  " ; 
+	my $hint = "   ";
+	push @WA , $WA1  ;
+	push @WA , $WA2  ;
+	my ($ANSLIST,$correctindex) = QP_InsertCorrectAnswer($answer,@WA);
+	($question,$answer,$hint,$ANSLIST,$correctindex);
+}

@@ -1,0 +1,21 @@
+
+\subsubsection{CLASP performance measurement and comparison to existing methods:}
+We evaluated CLASP using sensitivity, specificity and FPR (False Positive Rate) as parameters. These are defined as:
+\begin{align*}
+  Sensitivity = \frac{TP}{TP + FN} ,  Specificity = \frac{TN}{FP + TN}  \\
+  FPR = 1-Specificity  ,   Precision =  = \frac{TP}{TP + FP}  
+%\label{eqn:1}    Sensitivity = \frac{TP}{TP + FN}  \\
+%\label{eqn:2}    Specificity = \frac{TN}{FP + TN}  \\
+%\label{eqn:3}    FPR = 1-Specificity  \\
+%\label{eqn:4}    Precision =  = \frac{TP}{TP + FP}  \\
+\end{align*}
+( TP = true postives, TN = true negatives, FP = false positives, FN = false negatives).
+Recall is identical to sensitivity. An ideal method should have a sensitivity of 1 and the FPR would be 0. 
+A recent study reported a method with 85\% sensitivity for a 9.8\% FPR and 73\% sensitivity for a 5.7\% FPR ~\citep{RESBOOST}. 
+Another method reports 69\% recall at 18\% precision~\citep{DISCERN}. 
+Due to the inherent difference in the methodologies in CLASP and these methods, there cannot be a direct comparison of these parameters. CLASP has an almost ideal sensitivity of 1 for $\beta$-lactamase and serine proteases (Table~\ref{table:BLSCORES}).
+A scenario for an equivalent comparision would be for CLASP to have enumerated all the known activities in these datasets and report
+the averaged sensitivity and specificity. 
+%There are two parameters provided to the user to obtain their desired levels of sensitivity.  One parameter is the 
+The sensitivity versus FPR curves for running CLASP on a set of $\sim$50,000 proteins for a $\beta$-lactamase motif is 
+presented in SI Fig~\ref{fig:SPECSENS}. 

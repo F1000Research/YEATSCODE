@@ -1,0 +1,32 @@
+
+\begin{center}
+\begin{table}
+%\rowcolors{1}{tableShade}{white}
+\caption {\bf Dataset }
+\begin{tabular}{| l |  l  | l  | }
+\hline
+\rowcolor{red!50}  
+File Name  &   Description &   Number of proteins \\ 
+\hline
+list.1   &     All proteins in the PDB Database more than 100 amino acids long    & 47940     \\
+\hline
+list.2   &     Class A, C and D $\beta$-lactamases having 80\% or less similarity & 15 \\ 
+\hline
+list.3   &     3000 non-redundant proteins derived from http://www.ncbi.nlm.nih.gov/Structure/VAST/nrpdb.html \\ 
+\hline
+list.4   &     Serine proteases of the class trypsin having 80\% or less similarity & 7  \\ 
+\hline
+list.5   &     Random 10 proteins from the PDB & 10 \\ 
+\hline
+list.6   &     Proteins with motifs extracted from CSA Database& 391  \\ 
+\hline
+list.7   &     Random set of proteins annotated as putative in the PDB database & 52 \\ 
+\hline
+list.8   &     Serine proteases of the class subtilisin having 80\% or less similarity & 7  \\
+\hline
+list.9   &      Best matches obtained using a 3D congruence check  & \\  
+  &      with a serine protease motif having 80\% or less similarity & 1695 \\
+\hline
+\end{tabular} \label{table:dataset}
+\end{table}
+\end{center}

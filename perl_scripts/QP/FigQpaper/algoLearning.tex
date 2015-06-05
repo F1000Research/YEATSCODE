@@ -1,0 +1,83 @@
+\begin{algorithm}
+\SetNoline
+\dontprintsemicolon
+\KwIn{$PDB = \{PDB_{1}\cdots PDB_{m}\} \Leftarrow$ PDBs of $m$ Proteins known to have enzymatic function $\mathcal{F}$}
+\KwIn{$n \Leftarrow$ number  of active residues known for  $\mathcal{F}$}
+\KwIn{$PS_{residues} = \{PS_{1}\cdots PS_{m}\} \Leftarrow$ $m$ sets of $n$ residues - these are extracted from literature}
+%\KwOut{$x = \binom{n}{2}$ when the feature is the distance between 2 residues}
+\KwOut{$F \Leftarrow \{F_{ij}: \forall {i,j} \in n, i \ne j\}  $  Feature values }
+\KwOut{$W \Leftarrow \{W_{ij}: \forall {i,j} \in n, i \ne j\}  $  Weights assigned to each feature}
+\Begin{
+         \For{$j\leftarrow 1$ \KwTo $n-1$}{
+              \For{$k\leftarrow j+1$ \KwTo $n$}{
+                   $D_{jk} \longleftarrow \emptyset$\;
+			   }
+	      }
+  \For{$i\leftarrow 1$ \KwTo $m$}{
+  		$ReadCoordinatesFromPDB(PDB_{i})$ \\
+		 %\tcc*[l] { Get Feature for each pair of residues }
+         \For{$j\leftarrow 1$ \KwTo $n-1$}{
+              \For{$k\leftarrow j+1$ \KwTo $n$}{
+		 	       $R^{i}_{j} = PS_{i}[j]$ \\ 
+		 	       $R^{i}_{k} = PS_{i}[k]$  \\ 
+		 	       $d^{i}_{jk} = Dist(R^{i}_{j},R^{i}_{j})$ \\
+				   $D_{jk} = D_{jk} \cap d^{i}_{jk}$ \\
+				   %$F_{jk} = F_{jk} + d^{i}_{jk} $ \\ 
+
+		       }
+		
+	 	
+          }
+   }
+         \For{$j\leftarrow 1$ \KwTo $n-1$}{
+              \For{$k\leftarrow j+1$ \KwTo $n$}{
+                   $F_{jk} = Mean(D_{jk})$
+                   $SD_{jk} = StandardDeviation(D_{jk})$
+                   $W_{jk} = 1/SD_{jk}$
+			   }
+	      }
+}
+\caption{\texttt{\bf Learning} - {for a given  enzymatic function $\mathcal{F}$ obtain weights of features from a set of protein having $\mathcal{F}$ and with known active residues }} \label{algo:learn}
+\end{algorithm}
+
+\begin{algorithm}
+\SetNoline
+\dontprintsemicolon
+\KwIn{$PDB = \{PDB_{1}\cdots PDB_{m}\} \Leftarrow$ PDBs of $m$ Proteins known to have enzymatic function $\mathcal{F}$}
+\KwIn{$n \Leftarrow$ number  of active residues known for  $\mathcal{F}$}
+\KwIn{$PS_{residues} = \{PS_{1}\cdots PS_{m}\} \Leftarrow$ $m$ sets of $n$ residues - these are extracted from literature}
+%\KwOut{$x = \binom{n}{2}$ when the feature is the distance between 2 residues}
+\KwOut{$F \Leftarrow \{F_{ij}: \forall {i,j} \in n, i \ne j\}  $  Feature values }
+\KwOut{$W \Leftarrow \{W_{ij}: \forall {i,j} \in n, i \ne j\}  $  Weights assigned to each feature}
+\Begin{
+         \For{$j\leftarrow 1$ \KwTo $n-1$}{
+              \For{$k\leftarrow j+1$ \KwTo $n$}{
+                   $D_{jk} \longleftarrow \emptyset$\;
+			   }
+	      }
+  \For{$i\leftarrow 1$ \KwTo $m$}{
+  		$ReadCoordinatesFromPDB(PDB_{i})$ \\
+		 %\tcc*[l] { Get Feature for each pair of residues }
+         \For{$j\leftarrow 1$ \KwTo $n-1$}{
+              \For{$k\leftarrow j+1$ \KwTo $n$}{
+		 	       $R^{i}_{j} = PS_{i}[j]$ \\ 
+		 	       $R^{i}_{k} = PS_{i}[k]$  \\ 
+		 	       $d^{i}_{jk} = Dist(R^{i}_{j},R^{i}_{j})$ \\
+				   $D_{jk} = D_{jk} \cap d^{i}_{jk}$ \\
+				   %$F_{jk} = F_{jk} + d^{i}_{jk} $ \\ 
+
+		       }
+		
+	 	
+          }
+   }
+         \For{$j\leftarrow 1$ \KwTo $n-1$}{
+              \For{$k\leftarrow j+1$ \KwTo $n$}{
+                   $F_{jk} = Mean(D_{jk})$
+                   $SD_{jk} = StandardDeviation(D_{jk})$
+                   $W_{jk} = 1/SD_{jk}$
+			   }
+	      }
+}
+\caption{\texttt{\bf Learning} - {for a given  enzymatic function $\mathcal{F}$ obtain weights of features from a set of protein having $\mathcal{F}$ and with known active residues }} \label{algo:learn}
+\end{algorithm}

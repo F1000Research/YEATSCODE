@@ -1,0 +1,14 @@
+The fast increasing volume of structural data for proteins structure makes manual functional classification unfeasible. Evolution in proteins has given rise to 
+structurally related proteins with little sequence identities.This has led to the development of many structure-based classifications. Global structural similarity however has not always led to any relationship among proteins due to the very specific nature of the active sites. 
+Hence computational methods to predict these active sites have become essential due to the time consuming traditional mutagenesis methods. 
+
+We present CASE, an automatic computational procedure for deriving a novel classification of protein domain structures based on the active site specificity.
+This classification leads to active site prediction and also provides key insights into the evolutionary relationships between proteins.
+CASE learns about the physical 3D signature of any particular enzymatic function from a set of proteins exhibiting that function and with known active residues. 
+This signature is searched for in any given protein, and an ordered list is obtained based on a simple scoring technique. The best
+scoring active site match is the predicted catalytic site in that protein. This scoring defines the classifier for the particular enymatic function when applied to all known proteins, and can be easily extended to all functions to obtain a generic classifier.
+
+We present the classification of proteins based on BL activity.
+We have been able to predict validated residues in proteins that are not mentioned in CSA.
+We have achieved 85\% sensitivity with a FPR of 0.2\% which is an improvement over existing techiques by x\% for Class A BL. 
+Our method has also highlighted the evolutionary relationships between certain Class A-PBP's and Class A BL.

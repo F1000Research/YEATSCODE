@@ -1,0 +1,1615 @@
+% 10441119 
+@Article{OUR,
+   Author="Renu,BJ,SK..."
+   Title="uvi31",
+   Journal="Biochemistry",
+   Year="1999",
+   Volume="38",
+   Pages="10256--10261",
+   Month="Aug"
+}
+@Article{1GCE,
+   Author="Crichlow, G. V.  and Kuzin, A. P.  and Nukaga, M.  and Mayama, K.  and Sawai, T.  and Knox, J. R. ",
+   Title="{{S}tructure of the extended-spectrum class {C} beta-lactamase of {E}nterobacter cloacae {G}{C}1, a natural mutant with a tandem tripeptide insertion}",
+   Journal="Biochemistry",
+   Year="1999",
+   Volume="38",
+   Pages="10256--10261",
+   Month="Aug"
+}
+
+% 11148033 
+@Article{1G68,
+   Author="Lim, D.  and Sanschagrin, F.  and Passmore, L.  and De Castro, L.  and Levesque, R. C.  and Strynadka, N. C. ",
+   Title="{{I}nsights into the molecular basis for the carbenicillinase activity of {P}{S}{E}-4 beta-lactamase from crystallographic and kinetic studies}",
+   Journal="Biochemistry",
+   Year="2001",
+   Volume="40",
+   Pages="395--402",
+   Month="Jan"
+}
+
+
+% 19995920 
+@Article{BLACCLASSIFICATION,
+   Author="Bush, K.  and Jacoby, G. A. ",
+   Title="{{U}pdated functional classification of beta-lactamases}",
+   Journal="Antimicrob. Agents Chemother.",
+   Year="2010",
+   Volume="54",
+   Pages="969--976",
+   Month="Mar"
+}
+
+% 12196546 
+@Article{1O75,
+   Author="Deka, R. K.  and Machius, M.  and Norgard, M. V.  and Tomchick, D. R. ",
+   Title="{{C}rystal structure of the 47-k{D}a lipoprotein of {T}reponema pallidum reveals a novel penicillin-binding protein}",
+   Journal="J. Biol. Chem.",
+   Year="2002",
+   Volume="277",
+   Pages="41857--41864",
+   Month="Nov"
+}
+
+% 9480862 
+@Article{BLACCLASSIFICATION2,
+   Author="Matagne, A.  and Lamotte-Brasseur, J.  and Frere, J. M. ",
+   Title="{{C}atalytic properties of class {A} beta-lactamases: efficiency and diversity}",
+   Journal="Biochem. J.",
+   Year="1998",
+   Volume="330 ( Pt 2)",
+   Pages="581--598",
+   Month="Mar"
+}
+
+
+% 19177359 
+@Article{HIGHTOLERANCE,
+   Author="De Wals, P. Y.  and Doucet, N.  and Pelletier, J. N. ",
+   Title="{{H}igh tolerance to simultaneous active-site mutations in {T}{E}{M}-1 beta-lactamase: {D}istinct mutational paths provide more generalized beta-lactam recognition}",
+   Journal="Protein Sci.",
+   Year="2009",
+   Volume="18",
+   Pages="147--160",
+   Month="Jan"
+}
+
+
+
+% 19812041 
+@Article{MUTATE1,
+   Author="Brown, N. G.  and Shanker, S.  and Prasad, B. V.  and Palzkill, T. ",
+   Title="{{S}tructural and biochemical evidence that a {T}{E}{M}-1 beta-lactamase {N}170{G} active site mutant acts via substrate-assisted catalysis}",
+   Journal="J. Biol. Chem.",
+   Year="2009",
+   Volume="284",
+   Pages="33703--33712",
+   Month="Nov"
+}
+
+
+% 19417073 
+@Article{RASMOT,
+   Author="Debret, G.  and Martel, A.  and Cuniasse, P. ",
+   Title="{{R}{A}{S}{M}{O}{T}-3{D} {P}{R}{O}: a 3{D} motif search webserver}",
+   Journal="Nucleic Acids Res.",
+   Year="2009",
+   Volume="37",
+   Pages="W459--464",
+   Month="Jul"
+}
+
+% 17419878 
+@Article{THEMATICS,
+   Author="Wei, Y.  and Ko, J.  and Murga, L. F.  and Ondrechen, M. J. ",
+   Title="{{S}elective prediction of interaction sites in protein structures with {T}{H}{E}{M}{A}{T}{I}{C}{S}}",
+   Journal="BMC Bioinformatics",
+   Year="2007",
+   Volume="8",
+   Pages="119"
+}
+
+
+
+% 17478506 
+@Article{PAR3D,
+   Author="Goyal, K.  and Mohanty, D.  and Mande, S. C. ",
+   Title="{{P}{A}{R}-3{D}: a server to predict protein active site residues}",
+   Journal="Nucleic Acids Res.",
+   Year="2007",
+   Volume="35",
+   Pages="W503--505",
+   Month="Jul"
+}
+
+
+% 19922660 
+@Article{SITESIDENTIFY,
+   Author="Bray, T.  and Chan, P.  and Bougouffa, S.  and Greaves, R.  and Doig, A. J.  and Warwicker, J. ",
+   Title="{{S}ites{I}dentify: a protein functional site prediction tool}",
+   Journal="BMC Bioinformatics",
+   Year="2009",
+   Volume="10",
+   Pages="379"
+}
+
+
+% 20080507 
+@Article{DISCERN,
+   Author="Sankararaman, S.  and Sha, F.  and Kirsch, J. F.  and Jordan, M. I.  and Sjolander, K. ",
+   Title="{{A}ctive site prediction using evolutionary and structural information}",
+   Journal="Bioinformatics",
+   Year="2010",
+   Volume="26",
+   Pages="617--624",
+   Month="Mar"
+}
+
+
+
+
+% 19558703 
+@Article{RESBOOST,
+   Author="Alterovitz, R.  and Arvey, A.  and Sankararaman, S.  and Dallett, C.  and Freund, Y.  and Sjolander, K. ",
+   Title="{{R}es{B}oost: characterizing and predicting catalytic residues in enzymes}",
+   Journal="BMC Bioinformatics",
+   Year="2009",
+   Volume="10",
+   Pages="197"
+}
+
+% 14681376 
+@Article{CSA,
+   Author="Porter, C. T.  and Bartlett, G. J.  and Thornton, J. M. ",
+   Title="{{T}he {C}atalytic {S}ite {A}tlas: a resource of catalytic sites and residues identified in enzymes using structural data}",
+   Journal="Nucleic Acids Res.",
+   Year="2004",
+   Volume="32",
+   Pages="D129--133",
+   Month="Jan"
+}
+
+
+% 19465397 
+@Article{HOTSPOT,
+   Author="Pavelka, A.  and Chovancova, E.  and Damborsky, J. ",
+   Title="{{H}ot{S}pot {W}izard: a web server for identification of hot spots in protein engineering}",
+   Journal="Nucleic Acids Res.",
+   Year="2009",
+   Volume="37",
+   Pages="W376--383",
+   Month="Jul"
+}
+
+% 19920124 
+@Article{PFAM,
+   Author="Finn, R. D.  and Mistry, J.  and Tate, J.  and Coggill, P.  and Heger, A.  and Pollington, J. E.  and Gavin, O. L.  and Gunasekaran, P.  and Ceric, G.  and Forslund, K.  and Holm, L.  and Sonnhammer, E. L.  and Eddy, S. R.  and Bateman, A. ",
+   Title="{{T}he {P}fam protein families database}",
+   Journal="Nucleic Acids Res.",
+   Year="2010",
+   Volume="38",
+   Pages="D211--222",
+   Month="Jan"
+}
+
+% 18174182 
+@Article{TOPMATCH,
+   Author="Sippl, M. J.  and Wiederstein, M. ",
+   Title="{{A} note on difficult structure alignment problems}",
+   Journal="Bioinformatics",
+   Year="2008",
+   Volume="24",
+   Pages="426--427",
+   Month="Feb"
+}
+
+
+% 11836238 
+@Article{GENO3D,
+   Author="Combet, C.  and Jambon, M.  and Deleage, G.  and Geourjon, C. ",
+   Title="{{G}eno3{D}: automatic comparative molecular modelling of protein}",
+   Journal="Bioinformatics",
+   Year="2002",
+   Volume="18",
+   Pages="213--214",
+   Month="Jan"
+}
+
+% 17999929 
+@Article{METALLO,
+   Author="Nauton, L.  and Kahn, R.  and Garau, G.  and Hernandez, J. F.  and Dideberg, O. ",
+   Title="{{S}tructural insights into the design of inhibitors for the {L}1 metallo-beta-lactamase from {S}tenotrophomonas maltophilia}",
+   Journal="J. Mol. Biol.",
+   Year="2008",
+   Volume="375",
+   Pages="257--269",
+   Month="Jan"
+}
+
+% 12824325 
+@Article{CASTP,
+   Author="Binkowski, T. A.  and Naghibzadeh, S.  and Liang, J. ",
+   Title="{{C}{A}{S}{T}p: {C}omputed {A}tlas of {S}urface {T}opography of proteins}",
+   Journal="Nucleic Acids Res.",
+   Year="2003",
+   Volume="31",
+   Pages="3352--3355",
+   Month="Jul"
+}
+
+% 17897088 
+@Article{PARDOCK,
+   Author="Gupta, A.  and Gandhimathi, A.  and Sharma, P.  and Jayaram, B. ",
+   Title="{{P}ar{D}{O}{C}{K}: an all atom energy based {M}onte {C}arlo docking protocol for protein-ligand complexes}",
+   Journal="Protein Pept. Lett.",
+   Year="2007",
+   Volume="14",
+   Pages="632--646"
+}
+
+
+% 12547207 
+@Article{ET,
+   Author="Yao, H.  and Kristensen, D. M.  and Mihalek, I.  and Sowa, M. E.  and Shaw, C.  and Kimmel, M.  and Kavraki, L.  and Lichtarge, O. ",
+   Title="{{A}n accurate, sensitive, and scalable method to identify functional sites in protein structures}",
+   Journal="J. Mol. Biol.",
+   Year="2003",
+   Volume="326",
+   Pages="255--261",
+   Month="Feb"
+}
+
+
+% 12499312 
+@Article{CONSURF,
+   Author="Glaser, F.  and Pupko, T.  and Paz, I.  and Bell, R. E.  and Bechor-Shental, D.  and Martz, E.  and Ben-Tal, N. ",
+   Title="{{C}on{S}urf: identification of functional regions in proteins by surface-mapping of phylogenetic information}",
+   Journal="Bioinformatics",
+   Year="2003",
+   Volume="19",
+   Pages="163--164",
+   Month="Jan"
+}
+
+
+% 12421562 
+@Article{CSACLEFT,
+   Author="Bartlett, G. J.  and Porter, C. T.  and Borkakoti, N.  and Thornton, J. M. ",
+   Title="{{A}nalysis of catalytic residues in enzyme active sites}",
+   Journal="J. Mol. Biol.",
+   Year="2002",
+   Volume="324",
+   Pages="105--121",
+   Month="Nov"
+}
+
+% 8823158 
+@Article{1DJB,
+   Author="Chen, C. C.  and Smith, T. J.  and Kapadia, G.  and Wasch, S.  and Zawadzke, L. E.  and Coulson, A.  and Herzberg, O. ",
+   Title="{{S}tructure and kinetics of the beta-lactamase mutants {S}70{A} and {K}73{H} from {S}taphylococcus aureus {P}{C}1}",
+   Journal="Biochemistry",
+   Year="1996",
+   Volume="35",
+   Pages="12251--12258",
+   Month="Sep"
+}
+
+% 19100272 
+@Article{PBP_BL,
+   Author="Urbach, C.  and Evrard, C.  and Pudzaitis, V.  and Fastrez, J.  and Soumillion, P.  and Declercq, J. P. ",
+   Title="{{S}tructure of {P}{B}{P}-{A} from {T}hermosynechococcus elongatus, a penicillin-binding protein closely related to class {A} beta-lactamases}",
+   Journal="J. Mol. Biol.",
+   Year="2009",
+   Volume="386",
+   Pages="109--120",
+   Month="Feb"
+}
+
+% 17360321 
+@Article{2OQO,
+   Author="Yuan, Y.  and Barrett, D.  and Zhang, Y.  and Kahne, D.  and Sliz, P.  and Walker, S. ",
+   Title="{{C}rystal structure of a peptidoglycan glycosyltransferase suggests a model for processive glycan chain synthesis}",
+   Journal="Proc. Natl. Acad. Sci. U.S.A.",
+   Year="2007",
+   Volume="104",
+   Pages="5348--5353",
+   Month="Mar"
+}
+
+% 9309224 
+@Article{CATH,
+   Author="Orengo, C. A.  and Michie, A. D.  and Jones, S.  and Jones, D. T.  and Swindells, M. B.  and Thornton, J. M. ",
+   Title="{{C}{A}{T}{H}--a hierarchic classification of protein domain structures}",
+   Journal="Structure",
+   Year="1997",
+   Volume="5",
+   Pages="1093--1108",
+   Month="Aug"
+}
+
+
+
+
+% 7723011 
+@Article{SCOP,
+   Author="Murzin, A. G.  and Brenner, S. E.  and Hubbard, T.  and Chothia, C. ",
+   Title="{{S}{C}{O}{P}: a structural classification of proteins database for the investigation of sequences and structures}",
+   Journal="J. Mol. Biol.",
+   Year="1995",
+   Volume="247",
+   Pages="536--540",
+   Month="Apr"
+}
+
+
+% 12520024 
+@Article{SWISSPROT,
+   Author="Boeckmann, B.  and Bairoch, A.  and Apweiler, R.  and Blatter, M. C.  and Estreicher, A.  and Gasteiger, E.  and Martin, M. J.  and Michoud, K.  and O'Donovan, C.  and Phan, I.  and Pilbout, S.  and Schneider, M. ",
+   Title="{{T}he {S}{W}{I}{S}{S}-{P}{R}{O}{T} protein knowledgebase and its supplement {T}r{E}{M}{B}{L} in 2003}",
+   Journal="Nucleic Acids Res.",
+   Year="2003",
+   Volume="31",
+   Pages="365--370",
+   Month="Jan"
+}
+
+
+% 19920124 
+@Article{PFAM,
+   Author="Finn, R. D.  and Mistry, J.  and Tate, J.  and Coggill, P.  and Heger, A.  and Pollington, J. E.  and Gavin, O. L.  and Gunasekaran, P.  and Ceric, G.  and Forslund, K.  and Holm, L.  and Sonnhammer, E. L.  and Eddy, S. R.  and Bateman, A. ",
+   Title="{{T}he {P}fam protein families database}",
+   Journal="Nucleic Acids Res.",
+   Year="2010",
+   Volume="38",
+   Pages="D211--222",
+   Month="Jan"
+}
+
+
+
+% 19858104 
+@Article{PROSITE,
+   Author="Sigrist, C. J.  and Cerutti, L.  and de Castro, E.  and Langendijk-Genevaux, P. S.  and Bulliard, V.  and Bairoch, A.  and Hulo, N. ",
+   Title="{{P}{R}{O}{S}{I}{T}{E}, a protein domain database for functional characterization and annotation}",
+   Journal="Nucleic Acids Res.",
+   Year="2010",
+   Volume="38",
+   Pages="D161--166",
+   Month="Jan"
+}
+
+% 11513844 
+@Article{CLASSBMOTIF,
+   Author="Daiyasu, H.  and Osaka, K.  and Ishino, Y.  and Toh, H. ",
+   Title="{{E}xpansion of the zinc metallo-hydrolase family of the beta-lactamase fold}",
+   Journal="FEBS Lett.",
+   Year="2001",
+   Volume="503",
+   Pages="1--6",
+   Month="Aug"
+}
+
+
+% 1304898 
+@Article{FSSP,
+   Author="Holm, L.  and Ouzounis, C.  and Sander, C.  and Tuparev, G.  and Vriend, G. ",
+   Title="{{A} database of protein structure families with common folding motifs}",
+   Journal="Protein Sci.",
+   Year="1992",
+   Volume="1",
+   Pages="1691--1698",
+   Month="Dec"
+}
+
+
+% 19500970 
+@Article{COPS,
+   Author="Sippl, M. J. ",
+   Title="{{F}old space unlimited}",
+   Journal="Curr. Opin. Struct. Biol.",
+   Year="2009",
+   Volume="19",
+   Pages="312--320",
+   Month="Jun"
+}
+
+% 875032 
+@Article{PDB,
+   Author="Bernstein, F. C.  and Koetzle, T. F.  and Williams, G. J.  and Meyer, E. F.  and Brice, M. D.  and Rodgers, J. R.  and Kennard, O.  and Shimanouchi, T.  and Tasumi, M. ",
+   Title="{{T}he {P}rotein {D}ata {B}ank: a computer-based archival file for macromolecular structures}",
+   Journal="J. Mol. Biol.",
+   Year="1977",
+   Volume="112",
+   Pages="535--542",
+   Month="May"
+}
+
+
+% 10508779 
+@Article{CLASSIFICATIONCOMPARE,
+   Author="Hadley, C.  and Jones, D. T. ",
+   Title="{{A} systematic comparison of protein structure classifications: {S}{C}{O}{P}, {C}{A}{T}{H} and {F}{S}{S}{P}}",
+   Journal="Structure",
+   Year="1999",
+   Volume="7",
+   Pages="1099--1112",
+   Month="Sep"
+}
+
+% 11121028 
+@Article{TRNA,
+   Author="Soll, D.  and Becker, H. D.  and Plateau, P.  and Blanquet, S.  and Ibba, M. ",
+   Title="{{C}ontext-dependent anticodon recognition by class {I} lysyl-t{R}{N}{A} synthetases}",
+   Journal="Proc. Natl. Acad. Sci. U.S.A.",
+   Year="2000",
+   Volume="97",
+   Pages="14224--14228",
+   Month="Dec"
+}
+
+% 16590179 
+@Article{INDUCEDFIT,
+   Author="Koshland, D. E. ",
+   Title="{{A}pplication of a {T}heory of {E}nzyme {S}pecificity to {P}rotein {S}ynthesis}",
+   Journal="Proc. Natl. Acad. Sci. U.S.A.",
+   Year="1958",
+   Volume="44",
+   Pages="98--104",
+   Month="Feb"
+}
+
+
+@book{LEH,
+    abstract = {In the Fifth Edition, authors Dave Nelson and Mike Cox combine the best of the laboratory and best of the classroom, introducing exciting new developments while communicating basic principles through a variety of new learning toolsfrom new in-text worked examples and data analysis problems to the breakthrough eBook, which seamlessly integrates the complete text and its media components.},
+    author = {Lehninger, Albert and Nelson, David L. and Cox, Michael M.},
+    citeulike-article-id = {3823091},
+    citeulike-linkout-0 = {http://www.amazon.ca/exec/obidos/redirect?tag=citeulike09-20\%255C\&\#38;path=ASIN/1429224169},
+    citeulike-linkout-1 = {http://www.amazon.ca/exec/obidos/redirect?tag=citeulike09-20\&\#38;path=ASIN/1429224169},
+    edition = {Fifth Edition},
+    howpublished = {Hardcover},
+    journal = {Book},
+    keywords = {file-import-09-11-02, proteomics},
+    month = {Jun},
+    posted-at = {2008-12-24 14:29:57},
+    priority = {2},
+    publisher = {W. H. Freeman},
+    title = {Lehninger Principles of Biochemistry},
+    url = {http://www.amazon.ca/exec/obidos/redirect?tag=citeulike09-20\%255C\&amp;path=ASIN/1429224169},
+    year = {2008}
+}
+
+
+% 8439290 
+@Article{SERINEPROTEASE,
+   Author="Rawlings, N. D.  and Barrett, A. J. ",
+   Title="{{E}volutionary families of peptidases}",
+   Journal="Biochem. J.",
+   Year="1993",
+   Volume="290 ( Pt 1)",
+   Pages="205--218",
+   Month="Feb"
+}
+
+
+% 12525179 
+@Article{SERINEPROTEASE1,
+   Author="Sarkany, Z.  and Polgar, L. ",
+   Title="{{T}he unusual catalytic triad of poliovirus protease 3{C}}",
+   Journal="Biochemistry",
+   Year="2003",
+   Volume="42",
+   Pages="516--522",
+   Month="Jan"
+}
+
+
+% 9254694 
+@Article{PSIBLAST,
+   Author="Altschul, S. F.  and Madden, T. L.  and Schaffer, A. A.  and Zhang, J.  and Zhang, Z.  and Miller, W.  and Lipman, D. J. ",
+   Title="{{G}apped {B}{L}{A}{S}{T} and {P}{S}{I}-{B}{L}{A}{S}{T}: a new generation of protein database search programs}",
+   Journal="Nucleic Acids Res.",
+   Year="1997",
+   Volume="25",
+   Pages="3389--3402",
+   Month="Sep"
+}
+
+
+% 8609628 
+@Article{ET,
+   Author="Lichtarge, O.  and Bourne, H. R.  and Cohen, F. E. ",
+   Title="{{A}n evolutionary trace method defines binding surfaces common to protein families}",
+   Journal="J. Mol. Biol.",
+   Year="1996",
+   Volume="257",
+   Pages="342--358",
+   Month="Mar"
+}
+
+% 8662544 
+@Article{DALI,
+   Author="Holm, L.  and Sander, C. ",
+   Title="{{M}apping the protein universe}",
+   Journal="Science",
+   Year="1996",
+   Volume="273",
+   Pages="595--603",
+   Month="Aug"
+}
+
+
+% 15954844 
+@Article{PROTFAMILYEVOLVE,
+   Author="Orengo, C. A.  and Thornton, J. M. ",
+   Title="{{P}rotein families and their evolution-a structural perspective}",
+   Journal="Annu. Rev. Biochem.",
+   Year="2005",
+   Volume="74",
+   Pages="867--900"
+}
+
+
+% 1741619 
+@Article{BETALAC_AND_PBP,
+   Author="Ghuysen, J. M. ",
+   Title="{{S}erine beta-lactamases and penicillin-binding proteins}",
+   Journal="Annu. Rev. Microbiol.",
+   Year="1991",
+   Volume="45",
+   Pages="37--67"
+}
+
+% 10805772 
+@Article{DNAPOLY,
+   Author="Patel, P. H.  and Loeb, L. A. ",
+   Title="{{D}{N}{A} polymerase active site is highly mutable: evolutionary consequences}",
+   Journal="Proc. Natl. Acad. Sci. U.S.A.",
+   Year="2000",
+   Volume="97",
+   Pages="5095--5100",
+   Month="May"
+}
+
+
+
+@Article{TRP,
+   Author="Zhang, R. G.  and Joachimiak, A.  and Lawson, C. L.  and Schevitz, R. W.  and Otwinowski, Z.  and Sigler, P. B. ",
+   Title="{{T}he crystal structure of trp aporepressor at 1.8 {A} shows how binding tryptophan enhances {D}{N}{A} affinity}",
+   Journal="Nature",
+   Year="1987",
+   Volume="327",
+   Pages="591--597"
+}
+
+
+% 8087556 
+@Article{1TCA,
+   Author="Uppenberg, J.  and Hansen, M. T.  and Patkar, S.  and Jones, T. A. ",
+   Title="{{T}he sequence, crystal structure determination and refinement of two crystal forms of lipase {B} from {C}andida antarctica}",
+   Journal="Structure",
+   Year="1994",
+   Volume="2",
+   Pages="293--308",
+   Month="Apr"
+}
+
+
+
+
+% 10631780 
+@Article{FROMGENESTOPROTEINS,
+   Author="Skolnick, J.  and Fetrow, J. S. ",
+   Title="{{F}rom genes to protein structure and function: novel applications of computational approaches in the genomic era}",
+   Journal="Trends Biotechnol.",
+   Year="2000",
+   Volume="18",
+   Pages="34--39",
+   Month="Jan"
+}
+
+
+% 9860944 
+@Article{PUTATIVE,
+   Author="Zarembinski, T. I.  and Hung, L. W.  and Mueller-Dieckmann, H. J.  and Kim, K. K.  and Yokota, H.  and Kim, R.  and Kim, S. H. ",
+   Title="{{S}tructure-based assignment of the biochemical function of a hypothetical protein: a test case of structural genomics}",
+   Journal="Proc. Natl. Acad. Sci. U.S.A.",
+   Year="1998",
+   Volume="95",
+   Pages="15189--15193",
+   Month="Dec"
+}
+
+
+% 9232842 
+@Article{SPATIAL,
+   Author="Kobayashi, N.  and Go, N. ",
+   Title="{{A} method to search for similar protein local structures at ligand binding sites and its application to adenine recognition}",
+   Journal="Eur. Biophys. J.",
+   Year="1997",
+   Volume="26",
+   Pages="135--144"
+}
+
+
+% 15201051 
+@Article{ELECTROSTATICS,
+   Author="Bate, P.  and Warwicker, J. ",
+   Title="{{E}nzyme/non-enzyme discrimination and prediction of enzyme active site location using charge-based methods}",
+   Journal="J. Mol. Biol.",
+   Year="2004",
+   Volume="340",
+   Pages="263--276",
+   Month="Jul"
+}
+
+% 16037208 
+@Article{CATACONSERVE,
+   Author="George, R. A.  and Spriggs, R. V.  and Bartlett, G. J.  and Gutteridge, A.  and MacArthur, M. W.  and Porter, C. T.  and Al-Lazikani, B.  and Thornton, J. M.  and Swindells, M. B. ",
+   Title="{{E}ffective function annotation through catalytic residue conservation}",
+   Journal="Proc. Natl. Acad. Sci. U.S.A.",
+   Year="2005",
+   Volume="102",
+   Pages="12299--12304",
+   Month="Aug"
+}
+
+% 11551182 
+@Article{FFF,
+   Author="Di Gennaro, J. A.  and Siew, N.  and Hoffman, B. T.  and Zhang, L.  and Skolnick, J.  and Neilson, L. I.  and Fetrow, J. S. ",
+   Title="{{E}nhanced functional annotation of protein sequences via the use of structural descriptors}",
+   Journal="J. Struct. Biol.",
+   Year="2001",
+   Volume="134",
+   Pages="232--245"
+}
+
+
+% 9631295 
+@Article{ELECTROSTATICSCONCEPTS,
+   Author="Warshel, A.  and Papazyan, A. ",
+   Title="{{E}lectrostatic effects in macromolecules: fundamental concepts and practical modeling}",
+   Journal="Curr. Opin. Struct. Biol.",
+   Year="1998",
+   Volume="8",
+   Pages="211--217",
+   Month="Apr"
+}
+
+
+% 11517324 
+@Article{APBS,
+   Author="Baker, N. A.  and Sept, D.  and Joseph, S.  and Holst, M. J.  and McCammon, J. A. ",
+   Title="{{E}lectrostatics of nanosystems: application to microtubules and the ribosome}",
+   Journal="Proc. Natl. Acad. Sci. U.S.A.",
+   Year="2001",
+   Volume="98",
+   Pages="10037--10041",
+   Month="Aug"
+}
+
+% 17488841 
+@Article{PDBPQR,
+   Author="Dolinsky, T. J.  and Czodrowski, P.  and Li, H.  and Nielsen, J. E.  and Jensen, J. H.  and Klebe, G.  and Baker, N. A. ",
+   Title="{{P}{D}{B}2{P}{Q}{R}: expanding and upgrading automated preparation of biomolecular structures for molecular simulations}",
+   Journal="Nucleic Acids Res.",
+   Year="2007",
+   Volume="35",
+   Pages="W522--525",
+   Month="Jul"
+}
+
+% 19486540 
+@Article{FPOCKET,
+   Author="Le Guilloux, V.  and Schmidtke, P.  and Tuffery, P. ",
+   Title="{{F}pocket: an open source platform for ligand pocket detection}",
+   Journal="BMC Bioinformatics",
+   Year="2009",
+   Volume="10",
+   Pages="168"
+}
+
+% 19148270 
+@Article{POOL,
+   Author="Tong, W.  and Wei, Y.  and Murga, L. F.  and Ondrechen, M. J.  and Williams, R. J. ",
+   Title="{{P}artial order optimum likelihood ({P}{O}{O}{L}): maximum likelihood prediction of protein active site residues using 3{D} {S}tructure and sequence properties}",
+   Journal="PLoS Comput. Biol.",
+   Year="2009",
+   Volume="5",
+   Pages="e1000266",
+   Month="Jan"
+}
+
+
+% 20305268 
+@Article{PROBIS,
+   Author="Konc, J.  and Janezic, D. ",
+   Title="{{P}ro{B}i{S} algorithm for detection of structurally similar protein binding sites by local structural alignment}",
+   Journal="Bioinformatics",
+   Year="2010",
+   Volume="26",
+   Pages="1160--1168",
+   Month="May"
+}
+
+
+% 15701681 
+@Article{QSITEFINDER,
+   Author="Laurie, A. T.  and Jackson, R. M. ",
+   Title="{{Q}-{S}ite{F}inder: an energy-based method for the prediction of protein-ligand binding sites}",
+   Journal="Bioinformatics",
+   Year="2005",
+   Volume="21",
+   Pages="1908--1916",
+   Month="May"
+}
+
+% 18387204 
+@Article{FUNCLUST,
+   Author="Ausiello, G.  and Gherardini, P. F.  and Marcatili, P.  and Tramontano, A.  and Via, A.  and Helmer-Citterich, M. ",
+   Title="{{F}un{C}lust: a web server for the identification of structural motifs in a set of non-homologous protein structures}",
+   Journal="BMC Bioinformatics",
+   Year="2008",
+   Volume="9 Suppl 2",
+   Pages="S2"
+}
+
+
+% 19465382 
+@Article{MOLLOC,
+   Author="Angaran, S.  and Bock, M. E.  and Garutti, C.  and Guerra, C. ",
+   Title="{{M}ol{L}oc: a web tool for the local structural alignment of molecular surfaces}",
+   Journal="Nucleic Acids Res.",
+   Year="2009",
+   Volume="37",
+   Pages="W565--570",
+   Month="Jul"
+}
+
+
+% 15882869 
+@Article{ELECCLEFT,
+   Author="Greaves, R.  and Warwicker, J. ",
+   Title="{{A}ctive site identification through geometry-based and sequence profile-based calculations: burial of catalytic clefts}",
+   Journal="J. Mol. Biol.",
+   Year="2005",
+   Volume="349",
+   Pages="547--557",
+   Month="Jun"
+}
+
+
+trying to export 1 references ...
+
+% 8976552 
+@Article{LARGESTCLEFT,
+   Author="Laskowski, R. A.  and Luscombe, N. M.  and Swindells, M. B.  and Thornton, J. M. ",
+   Title="{{P}rotein clefts in molecular recognition and function}",
+   Journal="Protein Sci.",
+   Year="1996",
+   Volume="5",
+   Pages="2438--2452",
+   Month="Dec"
+}
+
+
+% 16597249 
+@Article{MULTIBIND,
+   Author="Shatsky, M.  and Shulman-Peleg, A.  and Nussinov, R.  and Wolfson, H. J. ",
+   Title="{{T}he multiple common point set problem and its application to molecule binding pattern detection}",
+   Journal="J. Comput. Biol.",
+   Year="2006",
+   Volume="13",
+   Pages="407--428",
+   Month="Mar"
+}
+
+
+% 18492720 
+@Article{SUPERIMPOSE,
+   Author="Bauer, R. A.  and Bourne, P. E.  and Formella, A.  and Frommel, C.  and Gille, C.  and Goede, A.  and Guerler, A.  and Hoppe, A.  and Knapp, E. W.  and Poschel, T.  and Wittig, B.  and Ziegler, V.  and Preissner, R. ",
+   Title="{{S}uperimpose: a 3{D} structural superposition server}",
+   Journal="Nucleic Acids Res.",
+   Year="2008",
+   Volume="36",
+   Pages="47--54",
+   Month="Jul"
+}
+
+
+% 10827456 
+@Article{EMBOSS,
+   Author="Rice, P.  and Longden, I.  and Bleasby, A. ",
+   Title="{{E}{M}{B}{O}{S}{S}: the {E}uropean {M}olecular {B}iology {O}pen {S}oftware {S}uite}",
+   Journal="Trends Genet.",
+   Year="2000",
+   Volume="16",
+   Pages="276--277",
+   Month="Jun"
+}
+
+
+
+% 17969016 
+@Article{PBREVIEW,
+   Author="Grochowski, P.  and Trylska, J. ",
+   Title="{{C}ontinuum molecular electrostatics, salt effects, and counterion binding--a review of the {P}oisson-{B}oltzmann theory and its modifications}",
+   Journal="Biopolymers",
+   Year="2008",
+   Volume="89",
+   Pages="93--113",
+   Month="Feb"
+}
+
+@article{DELPHI,
+ author = {Nicholls, Anthony and Honig, Barry},
+  title = {A rapid finite difference algorithm, utilizing successive over-relaxation to solve the Poisson-Boltzmann equation},
+   journal = {J. Comput. Chem.},
+    volume = {12},
+	 number = {4},
+	  year = {1991},
+	   issn = {0192-8651},
+	    pages = {435--445},
+		 doi = {http://dx.doi.org/10.1002/jcc.540120405},
+		  publisher = {John Wiley \& Sons, Inc.},
+		   address = {New York, NY, USA},
+		    }
+
+
+
+% 9917419 
+@Article{SPASM,
+   Author="Kleywegt, G. J. ",
+   Title="{{R}ecognition of spatial motifs in protein structures}",
+   Journal="J. Mol. Biol.",
+   Year="1999",
+   Volume="285",
+   Pages="1887--1897",
+   Month="Jan"
+}
+
+% 17189479 
+@Article{NOVELFOLDS,
+   Author="Youn, E.  and Peters, B.  and Radivojac, P.  and Mooney, S. D. ",
+   Title="{{E}valuation of features for catalytic residue prediction in novel folds}",
+   Journal="Protein Sci.",
+   Year="2007",
+   Volume="16",
+   Pages="216--226",
+   Month="Feb"
+}
+
+% 19997483 
+@Article{CONCCAVITY,
+   Author="Capra, J. A.  and Laskowski, R. A.  and Thornton, J. M.  and Singh, M.  and Funkhouser, T. A. ",
+   Title="{{P}redicting protein ligand binding sites by combining evolutionary sequence conservation and 3{D} structure}",
+   Journal="PLoS Comput. Biol.",
+   Year="2009",
+   Volume="5",
+   Pages="e1000585",
+   Month="Dec"
+}
+
+
+
+% 17408273 
+@Article{BETAACYLATION,
+   Author="Chen, Y.  and Bonnet, R.  and Shoichet, B. K. ",
+   Title="{{T}he acylation mechanism of {C}{T}{X}-{M} beta-lactamase at 0.88 a resolution}",
+   Journal="J. Am. Chem. Soc.",
+   Year="2007",
+   Volume="129",
+   Pages="5378--5380",
+   Month="May"
+}
+
+
+% 17681532 
+@Article{CONVERGEEVOL,
+   Author="Gherardini, P. F.  and Wass, M. N.  and Helmer-Citterich, M.  and Sternberg, M. J. ",
+   Title="{{C}onvergent evolution of enzyme active sites is not a rare phenomenon}",
+   Journal="J. Mol. Biol.",
+   Year="2007",
+   Volume="372",
+   Pages="817--845",
+   Month="Sep"
+}
+
+
+% 12850142 
+@Article{NEURAL1,
+   Author="Gutteridge, A.  and Bartlett, G. J.  and Thornton, J. M. ",
+   Title="{{U}sing a neural network and spatial clustering to predict the location of active sites in enzymes}",
+   Journal="J. Mol. Biol.",
+   Year="2003",
+   Volume="330",
+   Pages="719--734",
+   Month="Jul"
+}
+
+
+% 18287176 
+@Article{NEURAL2,
+   Author="Tang, Y. R.  and Sheng, Z. Y.  and Chen, Y. Z.  and Zhang, Z. ",
+   Title="{{A}n improved prediction of catalytic residues in enzyme structures}",
+   Journal="Protein Eng. Des. Sel.",
+   Year="2008",
+   Volume="21",
+   Pages="295--302",
+   Month="May"
+}
+
+
+% 16790052 
+@Article{SVM1,
+   Author="Petrova, N. V.  and Wu, C. H. ",
+   Title="{{P}rediction of catalytic residues using {S}upport {V}ector {M}achine with selected protein sequence and structural properties}",
+   Journal="BMC Bioinformatics",
+   Year="2006",
+   Volume="7",
+   Pages="312"
+}
+
+
+
+
+% 20072606 
+@Article{SVM2,
+   Author="Rottig, M.  and Rausch, C.  and Kohlbacher, O. ",
+   Title="{{C}ombining structure and sequence information allows automated prediction of substrate specificities within enzyme families}",
+   Journal="PLoS Comput. Biol.",
+   Year="2010",
+   Volume="6",
+   Pages="e1000636"
+}
+
+% 11301304 
+@Article{SVM.ANN,
+   Author="Ding, C. H.  and Dubchak, I. ",
+   Title="{{M}ulti-class protein fold recognition using support vector machines and neural networks}",
+   Journal="Bioinformatics",
+   Year="2001",
+   Volume="17",
+   Pages="349--358",
+   Month="Apr"
+}
+
+% 15215472 
+@Article{PDB2PQR,
+   Author="Dolinsky, T. J.  and Nielsen, J. E.  and McCammon, J. A.  and Baker, N. A. ",
+   Title="{{P}{D}{B}2{P}{Q}{R}: an automated pipeline for the setup of {P}oisson-{B}oltzmann electrostatics calculations}",
+   Journal="Nucleic Acids Res.",
+   Year="2004",
+   Volume="32",
+   Pages="W665--667",
+   Month="Jul"
+}
+
+
+% 19241376 
+@Article{K64R,
+   Author="Chen, Y.  and McReynolds, A.  and Shoichet, B. K. ",
+   Title="{{R}e-examining the role of {L}ys67 in class {C} beta-lactamase catalysis}",
+   Journal="Protein Sci.",
+   Year="2009",
+   Volume="18",
+   Pages="662--669",
+   Month="Mar"
+}
+
+
+@article{BIOPERL,
+    abstract = {The Bioperl project is an international open-source collaboration of biologists, bioinformaticians, and computer scientists that has evolved over the past 7 yr into the most comprehensive library of Perl modules available for managing and manipulating life-science information. Bioperl provides an easy-to-use, stable, and consistent programming interface for bioinformatics application programmers. The Bioperl modules have been successfully and repeatedly used to reduce otherwise complex tasks to only a few lines of code. The Bioperl object model has been proven to be flexible enough to support enterprise-level applications such as EnsEMBL, while maintaining an easy learning curve for novice Perl programmers. Bioperl is capable of executing analyses and processing results from programs such as BLAST, ClustalW, or the EMBOSS suite. Interoperation with modules written in Python and Java is supported through the evolving BioCORBA bridge. Bioperl provides access to data stores such as GenBank and SwissProt via a flexible series of sequence input/output modules, and to the emerging common sequence data storage format of the Open Bioinformatics Database Access project. This study describes the overall architecture of the toolkit, the problem domains that it addresses, and gives specific examples of how the toolkit can be used to solve common life-sciences problems. We conclude with a discussion of how the open-source nature of the project has contributed to the development effort.},
+    author = {Stajich, Jason E. and Block, David and Boulez, Kris and Brenner, Steven E. and Chervitz, Stephen A. and Dagdigian, Chris and Fuellen, Georg and Gilbert, James G. and Korf, Ian and Lapp, Hilmar and Lehv\"{a}slaiho, Heikki and Matsalla, Chad and Mungall, Chris J. and Osborne, Brian I. and Pocock, Matthew R. and Schattner, Peter and Senger, Martin and Stein, Lincoln D. and Stupka, Elia and Wilkinson, Mark D. and Birney, Ewan},
+    citeulike-article-id = {415502},
+    citeulike-linkout-0 = {http://dx.doi.org/10.1101/gr.361602},
+    citeulike-linkout-1 = {http://genome.cshlp.org/content/12/10/1611.abstract},
+    citeulike-linkout-2 = {http://genome.cshlp.org/content/12/10/1611.full.pdf},
+    citeulike-linkout-3 = {http://www.genome.org/cgi/content/abstract/12/10/1611},
+    citeulike-linkout-4 = {http://view.ncbi.nlm.nih.gov/pubmed/12368254},
+    citeulike-linkout-5 = {http://www.hubmed.org/display.cgi?uids=12368254},
+    day = {1},
+    doi = {10.1101/gr.361602},
+    issn = {1088-9051},
+    journal = {Genome research},
+    month = {October},
+    number = {10},
+    pages = {1611--1618},
+    posted-at = {2010-08-01 22:31:22},
+    priority = {2},
+    title = {The Bioperl toolkit: Perl modules for the life sciences.},
+    url = {http://dx.doi.org/10.1101/gr.361602},
+    volume = {12},
+    year = {2002}
+}
+
+% 19241376 
+@Article{BLACTIVITY,
+   Author="Chen, Y.  and McReynolds, A.  and Shoichet, B. K. ",
+   Title="{{R}e-examining the role of {L}ys67 in class {C} beta-lactamase catalysis}",
+   Journal="Protein Sci.",
+   Year="2009",
+   Volume="18",
+   Pages="662--669",
+   Month="Mar"
+}
+
+% 15152012 
+@Article{PROTONTRANSERBL,
+   Author="Golemi-Kotra, D.  and Meroueh, S. O.  and Kim, C.  and Vakulenko, S. B.  and Bulychev, A.  and Stemmler, A. J.  and Stemmler, T. L.  and Mobashery, S. ",
+   Title="{{T}he importance of a critical protonation state and the fate of the catalytic steps in class {A} beta-lactamases and penicillin-binding proteins}",
+   Journal="J. Biol. Chem.",
+   Year="2004",
+   Volume="279",
+   Pages="34665--34673",
+   Month="Aug"
+}
+
+
+% 11297406 
+@Article{TITRATION,
+   Author="Onufriev, A.  and Case, D. A.  and Ullmann, G. M. ",
+   Title="{{A} novel view of p{H} titration in biomolecules}",
+   Journal="Biochemistry",
+   Year="2001",
+   Volume="40",
+   Pages="3413--3419",
+   Month="Mar"
+}
+
+% 18498103 
+@Article{PROPKA1,
+   Author="Bas, D. C.  and Rogers, D. M.  and Jensen, J. H. ",
+      Title="{{V}ery fast prediction and rationalization of p{K}a values for protein-ligand complexes}",
+	     Journal="Proteins",
+		    Year="2008",
+			   Volume="73",
+			      Pages="765--783",
+				     Month="Nov"
+					 }
+
+
+
+% 16231289 
+@Article{PROPKA,
+   Author="Li, H.  and Robertson, A. D.  and Jensen, J. H. ",
+      Title="{{V}ery fast empirical prediction and rationalization of protein p{K}a values}",
+	     Journal="Proteins",
+		    Year="2005",
+			   Volume="61",
+			      Pages="704--721",
+				     Month="Dec"
+					 }
+
+
+% 19458048 
+@Article{3FWM,
+   Author="Sung, M. T.  and Lai, Y. T.  and Huang, C. Y.  and Chou, L. Y.  and Shih, H. W.  and Cheng, W. C.  and Wong, C. H.  and Ma, C. ",
+      Title="{{C}rystal structure of the membrane-bound bifunctional transglycosylase {P}{B}{P}1b from {E}scherichia coli}",
+	     Journal="Proc. Natl. Acad. Sci. U.S.A.",
+		    Year="2009",
+			   Volume="106",
+			      Pages="8824--8829",
+				     Month="Jun"
+					 }
+
+
+% 14555648 
+@Article{PBP51NZO,
+   Author="Nicholas, R. A.  and Krings, S.  and Tomberg, J.  and Nicola, G.  and Davies, C. ",
+      Title="{{C}rystal structure of wild-type penicillin-binding protein 5 from {E}scherichia coli: implications for deacylation of the acyl-enzyme complex}",
+	     Journal="J. Biol. Chem.",
+		    Year="2003",
+			   Volume="278",
+			      Pages="52826--52833",
+				     Month="Dec"
+					 }
+
+
+
+
+
+% 9370435 
+@Article{BLPKA,
+   Author="Raquet, X.  and Lounnas, V.  and Lamotte-Brasseur, J.  and Frere, J. M.  and Wade, R. C. ",
+      Title="{p{K}a calculations for class {A} beta-lactamases: methodological and mechanistic implications}",
+	     Journal="Biophys. J.",
+		    Year="1997",
+			   Volume="73",
+			      Pages="2416--2426",
+				     Month="Nov"
+					 }
+
+
+% 10048333 
+@Article{BLPKA1,
+   Author="Lamotte-Brasseur, J.  and Lounnas, V.  and Raquet, X.  and Wade, R. C. ",
+      Title="{p{K}a calculations for class {A} beta-lactamases: influence of substrate binding}",
+	     Journal="Protein Sci.",
+		    Year="1999",
+			   Volume="8",
+			      Pages="404--409",
+				     Month="Feb"
+					 }
+
+
+% 8700829 
+@Article{LYSPKA,
+   Author="Damblon, C.  and Raquet, X.  and Lian, L. Y.  and Lamotte-Brasseur, J.  and Fonze, E.  and Charlier, P.  and Roberts, G. C.  and Frere, J. M. ",
+      Title="{{T}he catalytic mechanism of beta-lactamases: {N}{M}{R} titration of an active-site lysine residue of the {T}{E}{M}-1 enzyme}",
+	     Journal="Proc. Natl. Acad. Sci. U.S.A.",
+		    Year="1996",
+			   Volume="93",
+			      Pages="1747--1752",
+				     Month="Mar"
+					 }
+
+
+@article{RELPKAACTIVE0,
+author = {Warshel, Arieh},
+title = {Electrostatic basis of structure-function correlation in proteins},
+journal = {Accounts of Chemical Research},
+volume = {14},
+number = {9},
+pages = {284-290},
+year = {1981},
+doi = {10.1021/ar00069a004},
+URL = {http://pubs.acs.org/doi/abs/10.1021/ar00069a004},
+eprint = {http://pubs.acs.org/doi/pdf/10.1021/ar00069a004}
+}
+
+
+
+
+% 12112705 
+@Article{RELPKAACTIVE1,
+   Author="Forsyth, W. R.  and Antosiewicz, J. M.  and Robertson, A. D. ",
+      Title="{{E}mpirical relationships between protein structure and carboxyl p{K}a values in proteins}",
+	     Journal="Proteins",
+		    Year="2002",
+			   Volume="48",
+			      Pages="388--403",
+				     Month="Aug"
+					 }
+
+% 12049200 
+@Article{RELPKAACTIVE2,
+   Author="Harris, T. K.  and Turner, G. J. ",
+      Title="{{S}tructural basis of perturbed p{K}a values of catalytic groups in enzyme active sites}",
+	     Journal="IUBMB Life",
+		    Year="2002",
+			   Volume="53",
+			      Pages="85--98",
+				     Month="Feb"
+					 }
+
+
+
+
+% 12930989 
+@Article{CALCPKA3,
+   Author="Nielsen, J. E.  and McCammon, J. A. ",
+      Title="{{C}alculating p{K}a values in enzyme active sites}",
+	     Journal="Protein Sci.",
+		    Year="2003",
+			   Volume="12",
+			      Pages="1894--1901",
+				     Month="Sep"
+					 }
+% 2271649 
+@Article{CALCPKA2,
+   Author="Bashford, D.  and Karplus, M. ",
+      Title="{p{K}a's of ionizable groups in proteins: atomic detail from a continuum electrostatic model}",
+	     Journal="Biochemistry",
+		    Year="1990",
+			   Volume="29",
+			      Pages="10219--10225",
+				     Month="Nov"
+					 }
+
+
+
+@article{UHBD,
+title = "Electrostatics and diffusion of molecules in solution: simulations with the University of Houston Brownian Dynamics program",
+journal = "Computer Physics Communications",
+volume = "91",
+number = "1-3",
+pages = "57 - 95",
+year = "1995",
+note = "",
+issn = "0010-4655",
+doi = "DOI: 10.1016/0010-4655(95)00043-F",
+url = "http://www.sciencedirect.com/science/article/B6TJ5-4037S49-G/2/1c0b40e85e62f2cf9e7eb088747f3748",
+author = "Jeffry D. Madura and James M. Briggs and Rebecca C. Wade and Malcolm E. Davis and Brock A. Luty and Andrew Ilin and Jan Antosiewicz and Michael K. Gilson and Babak Bagheri and L. Ridgway Scott and J. Andrew McCammon",
+keywords = "Brownian dynamics",
+keywords = "Poisson-Boltzmann",
+keywords = "Electrostatics",
+keywords = "Free energies"
+}
+
+
+% 12603031 
+@Article{MOTIFSEARCH,
+   Author="Singh, R.  and Saha, M. ",
+      Title="{{I}dentifying structural motifs in proteins}",
+	     Journal="Pac Symp Biocomput",
+		    Year="2003",
+			   Pages="228--239"
+			   }
+
+
+
+% 1961713 
+@Article{GEOMHASH,
+   Author="Nussinov, R.  and Wolfson, H. J. ",
+      Title="{{E}fficient detection of three-dimensional structural motifs in biological macromolecules by computer vision techniques}",
+	     Journal="Proc. Natl. Acad. Sci. U.S.A.",
+		    Year="1991",
+			   Volume="88",
+			      Pages="10495--10499",
+				     Month="Dec"
+					 }
+
+
+% 16590179 
+@Article{LOCKKEY,
+   Author="Koshland, D. E. ",
+      Title="{{A}pplication of a {T}heory of {E}nzyme {S}pecificity to {P}rotein {S}ynthesis}",
+	     Journal="Proc. Natl. Acad. Sci. U.S.A.",
+		    Year="1958",
+			   Volume="44",
+			      Pages="98--104",
+				     Month="Feb"
+					 }
+
+
+% 6288964 
+@Article{FINITEDIFF,
+   Author="Warwicker, J.  and Watson, H. C. ",
+      Title="{{C}alculation of the electric potential in the active site cleft due to alpha-helix dipoles}",
+	     Journal="J. Mol. Biol.",
+		    Year="1982",
+			   Volume="157",
+			      Pages="671--679",
+				     Month="Jun"
+					 }
+
+
+% 7761829 
+@Article{PBREVIEWGOOD,
+   Author="Honig, B.  and Nicholls, A. ",
+      Title="{{C}lassical electrostatics in biology and chemistry}",
+	     Journal="Science",
+		    Year="1995",
+			   Volume="268",
+			      Pages="1144--1149",
+				     Month="May"
+					 }
+
+
+% 11575940 
+@Article{ELECPRED2001,
+   Author="Elcock, A. H. ",
+      Title="{{P}rediction of functionally important residues based solely on the computed energetics of protein structure}",
+	     Journal="J. Mol. Biol.",
+		    Year="2001",
+			   Volume="312",
+			      Pages="885--896",
+				     Month="Sep"
+					 }
+
+
+
+
+
+
+
+@article{PARSE,
+author = {Sitkoff, Doree and Sharp, Kim A. and Honig, Barry},
+title = {Accurate Calculation of Hydration Free Energies Using Macroscopic Solvent Models}, 
+journal = {The Journal of Physical Chemistry},
+volume = {98},
+number = {7},
+pages = {1978-1988},
+year = {1994},
+doi = {10.1021/j100058a043},
+URL = {http://pubs.acs.org/doi/abs/10.1021/j100058a043},
+eprint = {http://pubs.acs.org/doi/pdf/10.1021/j100058a043}
+}  
+
+% 9385633 
+@Article{TESS,
+   Author="Wallace, A. C.  and Borkakoti, N.  and Thornton, J. M. ",
+      Title="{{T}{E}{S}{S}: a geometric hashing algorithm for deriving 3{D} coordinate templates for searching structural databases. {A}pplication to enzyme active sites}",
+	     Journal="Protein Sci.",
+		    Year="1997",
+			   Volume="6",
+			      Pages="2308--2323",
+				     Month="Nov"
+					 }
+
+
+
+
+% 15292190 
+@Article{1U10,
+   Author="Marcyjaniak, M.  and Odintsov, S. G.  and Sabala, I.  and Bochtler, M. ",
+      Title="{{P}eptidoglycan amidase {M}ep{A} is a {L}{A}{S} metallopeptidase}",
+	     Journal="J. Biol. Chem.",
+		    Year="2004",
+			   Volume="279",
+			      Pages="43982--43989",
+				     Month="Oct"
+					 }
+
+
+% 19382204 
+@Article{1CDAALGO,
+   Author="Rapp, C. S.  and Schonbrun, C.  and Jacobson, M. P.  and Kalyanaraman, C.  and Huang, N. ",
+      Title="{{A}utomated site preparation in physics-based rescoring of receptor ligand complexes}",
+	     Journal="Proteins",
+		    Year="2009",
+			   Volume="77",
+			      Pages="52--61",
+				     Month="Oct"
+					 }
+
+
+% 18782760 
+@Article{ELECREPULSION,
+   Author="Kosloff, M.  and Alexov, E.  and Arshavsky, V. Y.  and Honig, B. ",
+      Title="{{E}lectrostatic and lipid anchor contributions to the interaction of transducin with membranes: mechanistic implications for activation and translocation}",
+	     Journal="J. Biol. Chem.",
+		    Year="2008",
+			   Volume="283",
+			      Pages="31197--31207",
+				     Month="Nov"
+					 }
+
+
+
+
+
+
+% 11124260 
+@Article{PLAP,
+   Author="Le Du, M. H.  and Stigbrand, T.  and Taussig, M. J.  and Menez, A.  and Stura, E. A. ",
+   Title="{{C}rystal structure of alkaline phosphatase from human placenta at 1.8 {A} resolution. {I}mplication for a substrate specificity}",
+   Journal="J. Biol. Chem.",
+   Year="2001",
+   Volume="276",
+   Pages="9158--9165",
+   Month="Mar"
+}
+
+
+% 15946677 
+@Article{PLAPLIGAND,
+   Author="Llinas, P.  and Stura, E. A.  and Menez, A.  and Kiss, Z.  and Stigbrand, T.  and Millan, J. L.  and Le Du, M. H. ",
+   Title="{{S}tructural studies of human placental alkaline phosphatase in complex with functional ligands}",
+   Journal="J. Mol. Biol.",
+   Year="2005",
+   Volume="350",
+   Pages="441--451",
+   Month="Jul"
+}
+
+
+% 12399456 
+@Article{ECOLIMUTATECOBALT,
+   Author="Wojciechowski, C. L.  and Kantrowitz, E. R. ",
+   Title="{{A}ltering of the metal specificity of {E}scherichia coli alkaline phosphatase}",
+   Journal="J. Biol. Chem.",
+   Year="2002",
+   Volume="277",
+   Pages="50476--50481",
+   Month="Dec"
+}
+
+
+% 15938627 
+@Article{ECOLIMUTATECOBALT1,
+   Author="Wang, J.  and Stieglitz, K. A.  and Kantrowitz, E. R. ",
+   Title="{{M}etal specificity is correlated with two crucial active site residues in {E}scherichia coli alkaline phosphatase}",
+   Journal="Biochemistry",
+   Year="2005",
+   Volume="44",
+   Pages="8378--8386",
+   Month="Jun"
+}
+
+
+% 20438737 
+@Article{HSAP,
+   Author="Wende, A.  and Johansson, P.  and Vollrath, R.  and Dyall-Smith, M.  and Oesterhelt, D.  and Grininger, M. ",
+   Title="{{S}tructural and biochemical characterization of a halophilic archaeal alkaline phosphatase}",
+   Journal="J. Mol. Biol.",
+   Year="2010",
+   Volume="400",
+   Pages="52--62",
+   Month="Jul"
+}
+
+
+% 17198711 
+@Article{TAP,
+   Author="Wang, E.  and Koutsioulis, D.  and Leiros, H. K.  and Andersen, O. A.  and Bouriotis, V.  and Hough, E.  and Heikinheimo, P. ",
+   Title="{{C}rystal structure of alkaline phosphatase from the {A}ntarctic bacterium {T}{A}{B}5}",
+   Journal="J. Mol. Biol.",
+   Year="2007",
+   Volume="366",
+   Pages="1318--1331",
+   Month="Mar"
+}
+
+
+% 18977465 
+@Article{VAP,
+   Author="Helland, R.  and Larsen, R. L.  and Asgeirsson, B. ",
+   Title="{{T}he 1.4 {A} crystal structure of the large and cold-active {V}ibrio sp. alkaline phosphatase}",
+   Journal="Biochim. Biophys. Acta",
+   Year="2009",
+   Volume="1794",
+   Pages="297--308",
+   Month="Feb"
+}
+
+% 2010919 
+@Article{APMECH0,
+   Author="Kim, E. E.  and Wyckoff, H. W. ",
+   Title="{{R}eaction mechanism of alkaline phosphatase based on crystal structures. {T}wo-metal ion catalysis}",
+   Journal="J. Mol. Biol.",
+   Year="1991",
+   Volume="218",
+   Pages="449--464",
+   Month="Mar"
+}
+
+
+
+% 10580082 
+@Article{APMECH1,
+   Author="Holtz, K. M.  and Kantrowitz, E. R. ",
+   Title="{{T}he mechanism of the alkaline phosphatase reaction: insights from {N}{M}{R}, crystallography and site-specific mutagenesis}",
+   Journal="FEBS Lett.",
+   Year="1999",
+   Volume="462",
+   Pages="7--11",
+   Month="Nov"
+}
+
+% 10873454 
+@Article{APMECH2,
+   Author="Stec, B.  and Holtz, K. M.  and Kantrowitz, E. R. ",
+   Title="{{A} revised mechanism for the alkaline phosphatase reaction involving three metal ions}",
+   Journal="J. Mol. Biol.",
+   Year="2000",
+   Volume="299",
+   Pages="1303--1311",
+   Month="Jun"
+}
+
+
+% 12083516 
+@Article{SAP,
+   Author="de Backer, M.  and McSweeney, S.  and Rasmussen, H. B.  and Riise, B. W.  and Lindley, P.  and Hough, E. ",
+   Title="{{T}he 1.9 {A} crystal structure of heat-labile shrimp alkaline phosphatase}",
+   Journal="J. Mol. Biol.",
+   Year="2002",
+   Volume="318",
+   Pages="1265--1274",
+   Month="May"
+}
+
+
+% 11910033 
+@Article{APREQUIRESCOBALT,
+   Author="Wojciechowski, C. L.  and Cardia, J. P.  and Kantrowitz, E. R. ",
+   Title="{{A}lkaline phosphatase from the hyperthermophilic bacterium {T}. maritima requires cobalt for activity}",
+   Journal="Protein Sci.",
+   Year="2002",
+   Volume="11",
+   Pages="903--911",
+   Month="Apr"
+}
+
+
+% 8065256 
+@Article{WHYAREMAMMALIAN,
+   Author="Murphy, J. E.  and Kantrowitz, E. R. ",
+   Title="{{W}hy are mammalian alkaline phosphatases much more active than bacterial alkaline phosphatases?}",
+   Journal="Mol. Microbiol.",
+   Year="1994",
+   Volume="12",
+   Pages="351--357",
+   Month="May"
+}
+
+
+% 15725663 
+@Article{APCLONINGOVERPROD,
+   Author="Suzuki, Y.  and Mizutani, Y.  and Tsuji, T.  and Ohtani, N.  and Takano, K.  and Haruki, M.  and Morikawa, M.  and Kanaya, S. ",
+   Title="{{G}ene cloning, overproduction, and characterization of thermolabile alkaline phosphatase from a psychrotrophic bacterium}",
+   Journal="Biosci. Biotechnol. Biochem.",
+   Year="2005",
+   Volume="69",
+   Pages="364--373",
+   Month="Feb"
+}
+
+
+% 10672035 
+@Article{APTAPACTITIVTY,
+   Author="Rina, M.  and Pozidis, C.  and Mavromatis, K.  and Tzanodaskalaki, M.  and Kokkinidis, M.  and Bouriotis, V. ",
+   Title="{{A}lkaline phosphatase from the {A}ntarctic strain {T}{A}{B}5. {P}roperties and psychrophilic adaptations}",
+   Journal="Eur. J. Biochem.",
+   Year="2000",
+   Volume="267",
+   Pages="1230--1238",
+   Month="Feb"
+}
+
+
+% 12171655 
+@Article{COLDADAPT1,
+   Author="D'Amico, S.  and Claverie, P.  and Collins, T.  and Georlette, D.  and Gratia, E.  and Hoyoux, A.  and Meuwis, M. A.  and Feller, G.  and Gerday, C. ",
+   Title="{{M}olecular basis of cold adaptation}",
+   Journal="Philos. Trans. R. Soc. Lond., B, Biol. Sci.",
+   Year="2002",
+   Volume="357",
+   Pages="917--925",
+   Month="Jul"
+}
+
+
+
+
+% 11985615 
+@Article{APCOLDADAPT1,
+   Author="Mavromatis, K.  and Tsigos, I.  and Tzanodaskalaki, M.  and Kokkinidis, M.  and Bouriotis, V. ",
+   Title="{{E}xploring the role of a glycine cluster in cold adaptation of an alkaline phosphatase}",
+   Journal="Eur. J. Biochem.",
+   Year="2002",
+   Volume="269",
+   Pages="2330--2335",
+   Month="May"
+}
+
+% 8648634 
+@Article{APMUTATE1,
+   Author="Tibbitts, T. T.  and Murphy, J. E.  and Kantrowitz, E. R. ",
+   Title="{{K}inetic and structural consequences of replacing the aspartate bridge by asparagine in the catalytic metal triad of {E}scherichia coli alkaline phosphatase}",
+   Journal="J. Mol. Biol.",
+   Year="1996",
+   Volume="257",
+   Pages="700--715",
+   Month="Apr"
+}
+
+
+
+
+% 11884134 
+@Article{APMUTATE2,
+   Author="Le Du, M. H.  and Lamoure, C.  and Muller, B. H.  and Bulgakov, O. V.  and Lajeunesse, E.  and Menez, A.  and Boulain, J. C. ",
+   Title="{{A}rtificial evolution of an enzyme active site: structural studies of three highly active mutants of {E}scherichia coli alkaline phosphatase}",
+   Journal="J. Mol. Biol.",
+   Year="2002",
+   Volume="316",
+   Pages="941--953",
+   Month="Mar"
+}
+
+
+% 11828484 
+@Article{APMUTATE3,
+   Author="Muller, B. H.  and Lamoure, C.  and Le Du, M. H.  and Cattolico, L.  and Lajeunesse, E.  and Lemaitre, F.  and Pearson, A.  and Ducancel, F.  and Menez, A.  and Boulain, J. C. ",
+   Title="{{I}mproving {E}scherichia coli alkaline phosphatase efficacy by additional mutations inside and outside the catalytic pocket}",
+   Journal="Chembiochem",
+   Year="2001",
+   Volume="2",
+   Pages="517--523",
+   Month="Aug"
+}
+
+
